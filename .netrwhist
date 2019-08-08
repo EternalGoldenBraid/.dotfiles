@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/nicklas'
+let g:netrw_dirhist_2='/home/nicklas/Projects'
+let g:netrw_dirhist_3='/home/nicklas/Projects/daily'
+let g:netrw_dirhist_4='/home/nicklas/Projects/daily/templates'
