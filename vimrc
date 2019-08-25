@@ -65,7 +65,7 @@ if has('syntax') && has('eval')
 endif
 
 " Colorscheme
-colorscheme desert-night
+colorscheme elflord
 
 " Numbers
 :set number
