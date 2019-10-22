@@ -124,3 +124,7 @@ autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
 
 " Show title
 :set title
+
+" For vim-latexsuite
+"set grepprg=grep\ -nH\ $*
+"let g:tex_flavor = "latex"
