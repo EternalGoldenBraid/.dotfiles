@@ -1,0 +1,54 @@
+name: CI tests
+
+on:
+  push:
+    paths-ignore:
+      - 'doc/*'
+      - 'docker/*'
+      - 'media/*'
+      - '.github/**'
+      - '*.md'
+
+jobs:
+  make-tests-neovim:
+    name: Makefile tests on latest Ubuntu with neovim
+    runs-on: ubuntu-latest
+    #ubuntu-18.04
+    #ubuntu-16.04
+    steps:
+    - uses: actions/checkout@master
+      with:
+        fetch-depth: 1
+    - name: Install dependencies
+      run: |
+        sudo apt update
+        sudo apt install neovim
+        sudo apt install texlive{,-latex-extra}
+        sudo apt install latexmk libtext-bibtex-perl
+        sudo apt install moreutils
+    - name: Run tests with neovim
+      run: cd test/tests && make -j1
+
+  # make-tests-vim:
+  #   name: Makefile tests on Ubuntu 16.04 with Vim
+  #   runs-on: ubuntu-16.04
+  #   steps:
+  #   - uses: actions/checkout@master
+  #   - name: Install dependencies
+  #     run: sudo apt install texlive libtext-bibtex-perl
+  #   - name: Run tests with Vim
+  #     run: make MYVIM="vim -T dumb --not-a-term --noplugin -n" -C test/features/completion
+
+  # vader-tests:
+  #   strategy:
+  #     matrix:
+  #       os: [ubuntu-latest, ubuntu-16.04]
+
+  #   name: Vader tests on ${{ matrix.os }}
+  #   runs-on: ${{ matrix.os }}
+  #   steps:
+  #   - uses: actions/checkout@master
+  #   - name: Clone vader.vim
+  #     run: git clone https://github.com/junegunn/vader.vim.git test/vader/vader.vim
+  #   - name: Run Vader tests
+  #     run: test/vader/run
