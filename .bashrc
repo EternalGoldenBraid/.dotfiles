@@ -16,4 +16,10 @@ alias home='cd $HOME'
 
 # Temporary configurations
 alias dailenv='source ~/Projects/daily/daily/env/bin/activate'
-alias koti='sudo wpa_supplicant -B -i wlo1 -c /etc/wpa_supplicant/wpa_supplicant.conf'
+
+# ssh
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+    eval `ssh-agent`
+    ssh-add
+fi
+
