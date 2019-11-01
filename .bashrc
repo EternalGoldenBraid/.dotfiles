@@ -16,6 +16,8 @@ alias home='cd $HOME'
 
 # Temporary configurations
 alias dailenv='source ~/Projects/daily/daily/env/bin/activate'
+alias cdaily='cd ~/Projects/daily/daily'
+alias night='redshift -PO'
 
 # ssh
 if [ -z "$SSH_AUTH_SOCK" ] ; then

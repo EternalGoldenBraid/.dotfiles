@@ -125,6 +125,14 @@ autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
 " Show title
 :set title
 
-" For vim-latexsuite
-"set grepprg=grep\ -nH\ $*
-"let g:tex_flavor = "latex"
+" For latexmk "
+" Compiles the text to pdf using latexmk
+autocmd Filetype tex nnoremap <buffer> <C-T> :!latexmk -quiet -bibtex -pvc -f -pdf -pdflatex="pdflatex -synctex=1 -interaction=nonstopmode" %<CR>
+" Clean up all nonessential files, except dci, ps and pdf files
+autocmd FileType tex nmap <buffer> <C-c> :!latexmk -c <CR>
+" Opens the pdf in mupdf"
+"autocmd FileType tex nnoremap <buffer> <S-T> :latexmk
+
+" Put \begin{} \end{} tags tags around the current word
+autocmd FileType tex map  <C-B>      YpkI\begin{<ESC>A}<ESC>jI\end{<ESC>A}<esc>kA
+autocmd FileType tex map! <C-B> <ESC>YpkI\begin{<ESC>A}<ESC>jI\end{<ESC>A}<esc>kA
