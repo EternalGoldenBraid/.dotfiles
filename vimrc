@@ -1,16 +1,16 @@
 " Allow us to use Ctrl-s and Ctrl-q as keybinds
 silent !stty -ixon
 
-" Nocompatible
-:set nocompatible
-
 " Restore default behaviour when leaving Vim.
 autocmd VimLeave * silent !stty ixon
 
 " Filetyp detection
-if has("autocmd")
-   filetype indent plugin on
-endif
+"if has("autocmd")
+"   filetype indent plugin on
+"endif
+" Replacement for above 'Filetype detection' since interfered with UltiSnips
+" tab completion
+filetype indent plugin on
 
 " An example for a vimrc file.
 "
@@ -125,14 +125,10 @@ autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
 " Show title
 :set title
 
-" For latexmk "
-" Compiles the text to pdf using latexmk
-autocmd Filetype tex nnoremap <buffer> <C-T> :!latexmk -quiet -bibtex -pvc -f -pdf -pdflatex="pdflatex -synctex=1 -interaction=nonstopmode" %<CR>
-" Clean up all nonessential files, except dci, ps and pdf files
-autocmd FileType tex nmap <buffer> <C-c> :!latexmk -c <CR>
-" Opens the pdf in mupdf"
-"autocmd FileType tex nnoremap <buffer> <S-T> :latexmk
-
-" Put \begin{} \end{} tags tags around the current word
-autocmd FileType tex map  <C-B>      YpkI\begin{<ESC>A}<ESC>jI\end{<ESC>A}<esc>kA
-autocmd FileType tex map! <C-B> <ESC>YpkI\begin{<ESC>A}<ESC>jI\end{<ESC>A}<esc>kA
+" UltiSnips
+let g:UltiSnipsEditSplit = 'context'
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+let g:UltiSnipsSnippetsDir = '.vim/UltiSnips'
+let g:UltiSnipsSnippetDirectories =["/home/nicklas/.vim/UltiSnips", "/home/nicklas/UltiSnips",  "UltiSnips"]

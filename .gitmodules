@@ -7,3 +7,9 @@
 [submodule "vim/pack/plugins/start/vim-tex.vim"]
 	path = vim/pack/plugins/start/vim-tex.vim
 	url = https://github.com/lervag/vimtex.git
+[submodule "vim/pack/plugins/start/vimtex"]
+	path = vim/pack/plugins/start/vimtex
+	url = https://github.com/lervag/vimtex.git
+[submodule "vim/pack/plugins/start/ultisnips"]
+	path = vim/pack/plugins/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
