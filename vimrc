@@ -67,6 +67,9 @@ endif
 " Colorscheme
 colorscheme elflord
 
+" Language 
+:set encoding=utf8
+
 " Numbers
 :set number
 :set numberwidth=3
@@ -132,3 +135,7 @@ let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 let g:UltiSnipsSnippetsDir = '.vim/UltiSnips'
 let g:UltiSnipsSnippetDirectories =["/home/nicklas/.vim/UltiSnips", "/home/nicklas/UltiSnips",  "UltiSnips"]
+
+" inkscape-latex setup by https://github.com/gillescastel/inkscape-figures
+inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/Figures/"'<CR><CR>:w<CR>
+nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/Figures/" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>

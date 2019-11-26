@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # Source this file
 alias reload='source ~/.bashrc'
 
@@ -13,6 +15,8 @@ PS1='[\u@\h \W]\$ '
 
 alias ..='cd ..'
 alias home='cd $HOME'
+alias study='cd ~/Documents/Study'
+alias sammu='shutdown -h now'
 
 # Temporary configurations
 alias dailenv='source ~/Projects/daily/daily/env/bin/activate'
@@ -25,3 +29,5 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
     ssh-add
 fi
 
+alias dim='xbacklight -set 20'
+alias bright='xbacklight -set 100'
