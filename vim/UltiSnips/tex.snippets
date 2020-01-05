@@ -59,6 +59,10 @@ snippet td "superscript ^{}" iA
 ^{$1}$0
 endsnippet
 
+snippet sb "subscript _{}" iA
+_{$1}$0
+endsnippet
+
 # Fractions
 snippet \\ "fraction" i
 \frac{$1}{$2}$0
@@ -89,14 +93,14 @@ snippet int "integral from x to y" wA
 endsnippet
 
 priority 10
-snippet "bar" "bar" riA
-\overline{$1}$0
+snippet "bm" "\bm" riA
+\bm{$1}$0
 endsnippet
 
 context "math()"
 priority 100
-snippet "([a-zA-Z])bar" "bar" riA
-\overline{`!p snip.rv=match.group(1)`}
+snippet "([a-zA-Z])bm" "\bm" riA
+\bm{`!p snip.rv=match.group(1)`}
 endsnippet
 
 context "math()"
