@@ -22,6 +22,7 @@ alias sammu='shutdown -h now'
 alias dailenv='source ~/Projects/daily/daily/env/bin/activate'
 alias cdaily='cd ~/Projects/daily/daily'
 alias night='redshift -PO'
+alias ohj1='cd ~/Documents/Study/Programming/TIE-02101'
 
 # ssh
 if [ -z "$SSH_AUTH_SOCK" ] ; then
@@ -29,5 +30,6 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
     ssh-add
 fi
 
+alias valo='cd /sys/class/backlight/intel_backlight'
 alias dim='xbacklight -set 20'
 alias bright='xbacklight -set 100'
