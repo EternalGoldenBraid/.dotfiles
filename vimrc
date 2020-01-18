@@ -80,10 +80,14 @@ colorscheme elflord
 " mapleade and map localleader usage: :noremap <leader>d dd
 :let mapleader = "-"
 
-:let maplocalleader = "\\"
+:let maplocalleader = "]"
 
 " Delete line in insert mode
 :inoremap <c-d> <esc>ddi
+
+" Ensert newline and enter normal mode
+:nnoremap <S-Enter> O<Esc>
+:nnoremap <CR> o<Esc>
 
 " Uppercase word in insert mode
 :inoremap <c-u> <esc>VUi

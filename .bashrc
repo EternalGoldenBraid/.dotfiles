@@ -32,4 +32,6 @@ fi
 
 alias valo='cd /sys/class/backlight/intel_backlight'
 alias dim='xbacklight -set 20'
-alias bright='xbacklight -set 100'
+alias bright=
+
+alias netti='nmcli device wifi'
