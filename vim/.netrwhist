@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/nicklas/Documents'
+let g:netrw_dirhist_9='/home/nicklas/Documents/Study'
+let g:netrw_dirhist_8='/etc/X11/xorg.conf.d'
+let g:netrw_dirhist_7='/home/nicklas/Builds/wine-lol'
 let g:netrw_dirhist_6='/home/nicklas/Documents/Study/Packages'
 let g:netrw_dirhist_5='/home/nicklas/Documents/Study/Math/Calculus/Homework'
 let g:netrw_dirhist_4='/home/nicklas/test'
