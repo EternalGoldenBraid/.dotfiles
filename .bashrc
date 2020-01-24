@@ -17,6 +17,7 @@ alias ..='cd ..'
 alias home='cd $HOME'
 alias study='cd ~/Documents/Study'
 alias sammu='shutdown -h now'
+alias gitsave='git add --all && git commit -m "unimportant" && git push'
 
 # Temporary configurations
 alias dailenv='source ~/Projects/daily/daily/env/bin/activate'
@@ -30,7 +31,7 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
     ssh-add
 fi
 
-alias valo='cd /sys/class/backlight/intel_backlight'
+alias valo='cd /sys/class/backlight/intel_backlight && sudo vim brightness'
 alias dim='xbacklight -set 20'
 alias bright=
 

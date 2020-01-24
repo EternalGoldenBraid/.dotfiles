@@ -234,8 +234,8 @@ exec_always feh --bg-fill ~/Pictures/JMD_Rosette_Rotated.jpg
 
 # Open TUNI calendar
 bindsym ctrl+k exec firefox "https://outlook.office365.com/calendar/view/week"
-bindsym ctrl+alt+t exec firefox "https://to-do.office.com/tasks/?fromOwa=true"
-bindsym ctrl+alt+b exec firefox "https://tuni-my.sharepoint.com/:x:/r/personal/nicklas_fianda_tuni_fi/_layouts/15/Doc.aspx?sourcedoc=%7B359FD039-C95A-409E-9E29-E4485C380049%7D&file=Budget.xlsx&action=default&mobileredirect=true"
+bindsym alt+shift+t exec firefox "https://to-do.office.com/tasks/?fromOwa=true"
+bindsym alt+shift+b exec firefox "https://tuni-my.sharepoint.com/:x:/r/personal/nicklas_fianda_tuni_fi/_layouts/15/Doc.aspx?sourcedoc=%7B359FD039-C95A-409E-9E29-E4485C380049%7D&file=Budget.xlsx&action=default&mobileredirect=true"
 
 # For future i3 monitor settings, Look at arand and xrand
 
