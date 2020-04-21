@@ -31,34 +31,40 @@ endsnippet
 
 snippet mk "Math" wA
 $${1}$`!p
-if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ', ':']:
     snip.rv = ' '
 else:
     snip.rv = ''
 `$2
 endsnippet
 
+context "math()"
 snippet '([A-Za-z])(\d)' "auto subscript" wrA
 `!p snip.rv = match.group(1)`_`!p snip.rv = match.group(2)`
 endsnippet
 
+context "math()"
 snippet '([A-Za-z])_(\d\d)' "auto subscript two digits" wrA
 `!p snip.rv = match.group(1)`_{`!p snip.rv = match.group(2)`}
 endsnippet
 
 # Exponents
+context "math()"
 snippet sr "^2" iA
 ^2
 endsnippet
 
+context "math()"
 snippet cb "^3" iA
 ^3
 endsnippet
 
+context "math()"
 snippet td "superscript ^{}" iA
 ^{$1}$0
 endsnippet
 
+context "math()"
 snippet sb "subscript _{}" iA
 _{$1}$0
 endsnippet
@@ -69,6 +75,10 @@ snippet \\ "fraction" i
 endsnippet
 
 # Other
+
+snippet \imp "\implies" iA
+\implies
+endsnippet
 
 snippet bl "\textbf" i 
 \textbf{$1}$0
@@ -93,13 +103,13 @@ snippet int "integral from x to y" w
 endsnippet
 
 priority 10
-snippet "bm" "\bm" riA
+snippet "cm" "\bm" riA
 \bm{$1}$0
 endsnippet
 
 context "math()"
 priority 100
-snippet "([a-zA-Z])bm" "\bm" riA
+snippet "([a-zA-Z])cm" "\bm" riA
 \bm{`!p snip.rv=match.group(1)`}
 endsnippet
 
@@ -139,7 +149,7 @@ snippet diff "\frac{d}{d}"
 endsnippet
 
 context "math()"
-snippet \R "\mathbb{R} " 
+snippet \R "\mathbb{R} " Ai
 \mathbb{R}
 endsnippet
 

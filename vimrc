@@ -107,6 +107,9 @@ colorscheme elflord
 " Clipboard paste
 :noremap <leader>p "+p
 
+" Dont look for completions in all "i" included files
+:set complete-=i
+
 " Add quotes to word
 :nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 
@@ -124,6 +127,10 @@ colorscheme elflord
 :nnoremap <down> <nop>
 :nnoremap <left> <nop>
 :nnoremap <right> <nop>
+
+"Set folding
+:nnoremap <space> za 
+:set fdm=indent
 
 " Filetype specific commenting
 autocmd FileType javascript nnoremap <buffer> <localleader>c I//<esc> 

@@ -14,16 +14,23 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias ..='cd ..'
+alias rm='rm -i'
 alias home='cd $HOME'
 alias study='cd ~/Documents/Study'
 alias sammu='shutdown -h now'
 alias gitsave='git add --all && git commit -m "unimportant" && git push'
+alias myscrot='scrot ~/Pictures/Screenshots/%b%d::%H%M%S.png'
 
 # Temporary configurations
 alias dailenv='source ~/Projects/daily/daily/env/bin/activate'
 alias cdaily='cd ~/Projects/daily/daily'
 alias night='redshift -PO'
 alias ohj1='cd ~/Documents/Study/Programming/TIE-02101'
+alias activate='. venv/bin/activate'
+alias opnet='netti connect AndroidAP_3058'
+
+# Uni
+alias course='cd ~/Documents/Study/Bachelor_0/Semester_1/'
 
 # ssh
 if [ -z "$SSH_AUTH_SOCK" ] ; then
