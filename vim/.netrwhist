@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/nicklas/PycharmProjects/kierros13'
 let g:netrw_dirhist_7='/home/nicklas/.dotfiles/i3/i3blocks'
 let g:netrw_dirhist_6='/home/nicklas/Playground/static'
 let g:netrw_dirhist_5='/home/nicklas/Documents/Study/Bachelor_0/Semester_1/Insinoorimatematiikka_2/Notes'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_2='/home/nicklas/PycharmProjects'
 let g:netrw_dirhist_1='/var/log/journal/8e910560e09943bf87db7456151a10a4'
 let g:netrw_dirhist_0='/home/nicklas/Documents'
 let g:netrw_dirhist_9='/home/nicklas/Documents/Study'
-let g:netrw_dirhist_8='/etc/X11/xorg.conf.d'
