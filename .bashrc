@@ -22,7 +22,7 @@ alias gitsave='git add --all && git commit -m "unimportant" && git push'
 alias myscrot='scrot ~/Pictures/Screenshots/%b%d::%H%M%S.png'
 
 # Temporary configurations
-alias dailenv='source ~/Projects/daily/daily/env/bin/activate'
+alias dailenv='source ~/bin/dailenv.sh'
 alias cdaily='cd ~/Projects/daily/daily'
 alias night='redshift -PO'
 alias ohj1='cd ~/Documents/Study/Programming/TIE-02101'

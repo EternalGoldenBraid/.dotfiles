@@ -234,9 +234,11 @@ exec firefox
 exec always redshift -PO 4300
 
 # Wallpaper
-exec_always feh --bg-fill ~/Pictures/JMD_Rosette_Rotated.jpg
+exec_always feh --bg-fill ~/Images/winter_horizon.jpg
 
 # Miscellanious setups:
+
+bindsym ctrl+shift+alt+d exec firefox "https://dailyapp.eu.pythonanywhere.com/login"
 
 # Open TUNI calendar
 bindsym ctrl+k exec firefox "https://outlook.office365.com/calendar/view/week"

@@ -42,5 +42,5 @@
 ## start some nice programs
 #
 ##twm &
-exec xbindkeys
+xbindkeys
 exec i3
