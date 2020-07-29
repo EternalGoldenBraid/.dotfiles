@@ -63,21 +63,6 @@
    XF86MonBrightnessDown
 
 
-#"xterm -geom 50x20+20+20"
-#   Shift+Mod2+alt + s
-#
-## set directly keycode (here control+alt+mod2 + f with my keyboard)
-#"xterm"
-#  alt + c:0x29 + m:4 + mod2
-#
-## Control+Shift+a  release event starts rxvt
-#"rxvt"
-#  release+control+shift + a
-#
-## Control + mouse button 2 release event starts rxvt
-#"rxvt"
-#  Control + b:2 + Release
-
 ##################################
 # End of xbindkeys configuration #
 ##################################

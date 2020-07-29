@@ -234,7 +234,7 @@ exec firefox
 exec always redshift -PO 4300
 
 # Wallpaper
-exec_always feh --bg-fill ~/Images/winter_horizon.jpg
+exec_always feh --bg-fill ~/Media/Images/winter_horizon.jpg
 
 # Miscellanious setups:
 
