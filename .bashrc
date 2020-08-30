@@ -44,3 +44,7 @@ alias netti='nmcli device wifi'
 # Arduino irrigation specific
 alias arcompile='arduino-cli compile --fqbn arduino:avr:uno'
 alias arupload='arduino-cli upload -p /dev/ttyUSB0 --fqbn arduino:avr:uno'
+
+# Monitor setups
+alias homehdmi='xrandr --output eDP1 --primary --mode 1920x1080 --pos 0x1080 --rotate normal --output HDMI1 --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off'
+alias vierhdmi='xrandr --output eDP1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI1 --mode 1920x1080 --pos 1920x0 --rotate normal --output VIRTUAL1 --off'

@@ -137,6 +137,7 @@ autocmd FileType javascript nnoremap <buffer> <localleader>c I//<esc>
 autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
 autocmd FileType css nnoremap <buffer> <localleader><localleader>c I/*<esc>
 autocmd FileType css nnoremap <buffer> <localleader>c I*/<esc>
+autocmd FileType cpp nnoremap <buffer> <localleader>c I//<esc>
 
 " Show title
 :set title

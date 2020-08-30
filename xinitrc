@@ -43,4 +43,6 @@
 #
 ##twm &
 xbindkeys
+setxkbmap -layout us,fi
+setxkbmap -option 'grp:alt_shift_toggle'
 exec i3
