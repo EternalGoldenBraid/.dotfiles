@@ -220,8 +220,8 @@ bar {
 
 
 # Keyboard layout toggle configuration
-exec "setxkbmap -layout us,fi"
-exec --no-startup-id "setxkbmap us,fi -option 'grp:alt_shift_toggle'"
+#exec "setxkbmap -layout us,fi"
+#exec --no-startup-id "setxkbmap us,fi -option 'grp:alt_shift_toggle'"
 
 # Screen lock
 bindsym $mod+shift+x exec i3lock --image=~/Pictures/JMD_Rosette_Rotated.jpg
