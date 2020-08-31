@@ -1,5 +1,28 @@
-snippet { "{}" iA
-{
+# more here https://yufanlu.net/2016/10/30/ultisnips/
 
+snippet incc "include <iostream>" b
+include <iostream>
+endsnippet
+
+snippet main "main(...) {...}" b
+main($1)
+{
+    $0
 }
 endsnippet
+
+snippet cout "std::cout << ... << std::endl;" i
+std::cout << {$1} << std::endl;
+endsnippet
+
+snippet std "use namespace std" b
+using namespace std;
+endsnippet
+
+# Highlight whatever to add inside the function definition
+snippet fun "function def" b
+${2:void} ${1:name}($3){
+    ${4:${VISUAL}}      // <--- visual placeholder added
+}
+endsnippet
+
