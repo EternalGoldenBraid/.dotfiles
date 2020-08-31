@@ -26,3 +26,6 @@ To update foo:
 To update all the plugins: 
 	cd ~/.vim
 	git submodule foreach git pull origin master
+
+To add a new plugin as a submodule:
+	git submodule add https://github.com/manasthakur/foo.git pack/plugins/start/foo

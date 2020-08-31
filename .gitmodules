@@ -12,7 +12,7 @@
 	url = https://github.com/lervag/vimtex.git
 [submodule "vim/pack/plugins/start/ultisnips"]
 	path = vim/pack/plugins/start/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
+	url = git@github.com:SirVer/ultisnips.git
 [submodule "inkscape-figures"]
 	path = inkscape-figures
 	url = https://github.com/gillescastel/inkscape-figures.git
