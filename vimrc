@@ -153,3 +153,29 @@ let g:UltiSnipsSnippetDirectories =["/home/nicklas/.vim/UltiSnips", "/home/nickl
 " inkscape-latex setup by https://github.com/gillescastel/inkscape-figures
 inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/Figures/"'<CR><CR>:w<CR>
 nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/Figures/" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
+
+" Latex setup: Should work staight from ftplugins but is not 
+set sw=2
+" TIP: if you write your \label's as \label{fig:something}, then if you
+" type in \ref{fig: and press <C-n> you will automatically cycle through
+" all the figure labels. Very useful!
+set iskeyword+=:
+
+" For latexmk "
+" Clean up all nonessential files, except dci, ps and pdf files
+autocmd FileType tex nmap <buffer> <C-c> :!latexmk -c <CR>
+
+" Put \begin{} \end{} tags tags around the current word
+"autocmd FileType tex map  <C-B>      YpkI\begin{<ESC>A}<ESC>jI\end{<ESC>A}<esc>kA
+"autocmd FileType tex map! <C-B> <ESC>YpkI\begin{<ESC>A}<ESC>jI\end{<ESC>A}<esc>kA
+
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
+
+" UltiSnis for latex
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'

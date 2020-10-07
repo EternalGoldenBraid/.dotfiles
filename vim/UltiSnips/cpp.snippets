@@ -1,18 +1,27 @@
 # more here https://yufanlu.net/2016/10/30/ultisnips/
 
-snippet incc "include <iostream>" b
-include <iostream>
+snippet incc "#include <iostream>" b
+#include <iostream>
 endsnippet
 
+snippet { "{ ... } " i
+{
+$1
+endsnippet
 snippet main "main(...) {...}" b
-main($1)
+$2 main($1)
 {
     $0
+
 }
 endsnippet
 
 snippet cout "std::cout << ... << std::endl;" i
-std::cout << {$1} << std::endl;
+std::cout << $1 << std::endl;
+endsnippet
+
+snippet cin "std::cin << ... ;" i
+std::cin << $1;
 endsnippet
 
 snippet std "use namespace std" b

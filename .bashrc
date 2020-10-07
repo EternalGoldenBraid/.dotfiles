@@ -16,7 +16,7 @@ PS1='[\u@\h \W]\$ '
 alias ..='cd ..'
 alias rm='rm -i'
 alias home='cd $HOME'
-alias study='cd ~/Documents/Study'
+alias study='cd ~/Study/Bachelor_1/Semester_1'
 alias sammu='shutdown -h now'
 alias gitsave='git add --all && git commit -m "unimportant" && git push'
 alias myscrot='scrot -s ~/Media/Images/Screenshots/%b%d-%h%m%s.png'
@@ -31,6 +31,7 @@ alias opnet='netti connect AndroidAP_3058'
 
 # Uni
 alias course='cd ~/Documents/Study/Bachelor_0/Semester_1/'
+alias mage='g++ main.cpp -Wall -o main.exe'
 
 # ssh
 if [ -z "$SSH_AUTH_SOCK" ] ; then
