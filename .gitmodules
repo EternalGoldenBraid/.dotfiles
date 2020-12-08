@@ -16,6 +16,3 @@
 [submodule "inkscape-figures"]
 	path = inkscape-figures
 	url = https://github.com/gillescastel/inkscape-figures.git
-[submodule "vim/pack/plugins/start/syntastic"]
-	path = vim/pack/plugins/start/syntastic
-	url = git@github.com:vim-syntastic/syntastic.git

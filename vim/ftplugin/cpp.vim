@@ -5,3 +5,4 @@
 :set softtabstop=4
 :set tw=79
 map <F5> :w<CR>:make<CR>
+let g:syntastic_c_checkers=['make', 'splint']
