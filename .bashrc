@@ -53,3 +53,6 @@ alias vierhdmi='xrandr --output eDP1 --primary --mode 1920x1080 --pos 0x0 --rota
 # Audio commands
 alias mictest='arecord -f S24_LE -c 2 -r 192000 -d 10 /tmp/test.wav && aplay /tmp/test.wav'
 source "$HOME/.cargo/env"
+
+# Check for aur updates using a python script.
+alias aurup='~/.config/i3/i3blocks/aur-update'
