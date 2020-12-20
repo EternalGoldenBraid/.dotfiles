@@ -1,9 +1,22 @@
 config/chromium/
 config/QtProject/
-config/libreoffice/
+config/libreoffice*
 config/Microsoft/
 config/chromium
 config/QtProject.conf
 config/'Unknown Organization'/
 config/nautilus/
+config/QtProject*
+config/Unknown Organization*
+config/dconf
+config/Element
+config/JetBrains
+config/gtk-3.0
+config/mimeapps.list
+config/pulse
+config/teams
+config/vimb
+config/vlc
+config/wireshark
+config/zoomus.conf
 

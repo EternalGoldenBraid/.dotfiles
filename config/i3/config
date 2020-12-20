@@ -13,11 +13,11 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:System San Fransisco Display 11
+font pango:monospace, FontAwesome 10 
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+#font pango:DejaVu Sans Mono 10
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -204,15 +204,16 @@ hide_edge_borders both
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3blocks -c ~/.config/i3/i3blocks/i3blocks.conf
+	status_command i3blocks -c ~/.config/i3/i3blocks/i3blocks.conf
 	colors {
 		background $bg-color
-	    	separator #757575
+		separator #757575
 		#                  border             background         text
 		focused_workspace  $bg-color          $bg-color          $text-color
 		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 	}
+	font pango:monospace 8, FontAwesome 8
 }
 
 
@@ -221,7 +222,8 @@ bar {
 #exec --no-startup-id "setxkbmap us,fi -option 'grp:alt_shift_toggle'"
 
 # Screen lock
-bindsym $mod+shift+x exec i3lock --image=~/Pictures/JMD_Rosette_Rotated.jpg
+#bindsym $mod+shift+x exec i3lock --image=~/Media/Images/winter_horizon.png
+bindsym $mod+shift+x exec i3lock --image=~/Media/Images/torus_knot_by_arrobaman.png
 
 # Print screen
 #bindsym ctrl+alt+p exec myscrot
@@ -238,10 +240,12 @@ exec_always feh --bg-fill ~/Media/Images/winter_horizon.jpg
 bindsym ctrl+shift+alt+d exec firefox "https://dailyapp.eu.pythonanywhere.com/login"
 
 # Open TUNI calendar
-bindsym ctrl+shift+k exec firefox "https://outlook.office.com/calendar/view/week"
+bindsym ctrl++k exec firefox "https://outlook.office.com/calendar/view/week"
 bindsym alt+shift+t exec firefox "https://to-do.office.com/tasks/?fromOwa=true"
 bindsym alt+shift+b exec firefox "https://tuni-my.sharepoint.com/:x:/r/personal/nicklas_fianda_tuni_fi/_layouts/15/Doc.aspx?sourcedoc=%7B359FD039-C95A-409E-9E29-E4485C380049%7D&file=Budget.xlsx&action=default&mobileredirect=true"
 bindsym ctrl+alt+p exec firefox "https://docs.python.org/3/library/"
 # For future i3 monitor settings, Look at arand and xrand
 
+# For i3blocks calendar script.
+# for_window [class="Yad"] floating enable
 exec_always compton -f
