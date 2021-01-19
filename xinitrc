@@ -45,5 +45,4 @@
 xbindkeys
 setxkbmap -layout us,fi
 setxkbmap -option 'grp:alt_shift_toggle'
-night 3000
 exec i3

@@ -30,6 +30,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+# Autostart blueman-applet
+exec --no-startup-id blueman-applet
+
 # Use pactl to adjust volume in PulseAudio.
 bindsym $mod+Ctrl+p exec --no-startup-id amixer set Master 10%+ 
 bindsym $mod+Ctrl+o exec --no-startup-id amixer set Master 10%-
@@ -228,9 +231,8 @@ bindsym $mod+shift+x exec i3lock --image=~/Media/Images/torus_knot_by_arrobaman.
 # Print screen
 #bindsym ctrl+alt+p exec myscrot
 
-# Autoload applications
-exec firefox
-exec always redshift -PO 4300
+# Autoload firefox
+exec --no-startup-id firefox
 
 # Wallpaper
 exec_always feh --bg-fill ~/Media/Images/winter_horizon.jpg
