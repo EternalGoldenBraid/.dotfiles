@@ -132,6 +132,9 @@ colorscheme elflord
 :nnoremap <space> za 
 :set fdm=indent
 
+"Set mouse scrolling
+:set mouse=a
+
 " Filetype specific commenting
 autocmd FileType javascript nnoremap <buffer> <localleader>c I//<esc> 
 autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
