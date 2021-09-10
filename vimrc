@@ -194,4 +194,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 "let g:statline_syntastic = 0
 
+" Pydiction setup
+let g:pydiciton_location = '/$HOME/.vim/pack/plugin'
+
 set tabstop=4

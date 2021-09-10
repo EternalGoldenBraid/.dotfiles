@@ -16,7 +16,7 @@ PS1='[\u@\h \W]\$ '
 alias ..='cd ..'
 alias rm='rm -i'
 alias home='cd $HOME'
-alias study='cd ~/Study/Bachelor_1/Semester_2'
+alias study='cd ~/Study/Bachelor_2/Semester_1'
 alias sammu='shutdown -h now'
 alias gitsave='git add --all && git commit -m "unimportant" && git push'
 alias myscrot='scrot -s ~/Media/Images/Screenshots/%b%d-%h%m%s.png'
@@ -56,3 +56,8 @@ alias mictest='arecord -f S24_LE -c 2 -r 192000 -d 10 /tmp/test.wav && aplay /tm
 
 # Check for aur updates using a python script.
 alias aurup='~/.config/i3/i3blocks/aur-update'
+. "$HOME/.cargo/env"
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/nicklas/.mujoco/mjpro150/bin
+
+source ~/.screenlayout/home.sh
