@@ -195,6 +195,8 @@ let g:syntastic_check_on_wq = 0
 "let g:statline_syntastic = 0
 
 " Pydiction setup
-let g:pydiciton_location = '/$HOME/.vim/pack/plugin'
+let g:pydiciton_location = '/$HOME/vim/pack/plugins/start/pydictio/complete-dict'
+let g:pydiction_menu_height = 3
 
+" pudb setup
 set tabstop=4

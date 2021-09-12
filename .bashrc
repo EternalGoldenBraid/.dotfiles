@@ -61,3 +61,10 @@ alias aurup='~/.config/i3/i3blocks/aur-update'
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/nicklas/.mujoco/mjpro150/bin
 
 source ~/.screenlayout/home.sh
+
+PATH=/usr/.local/bin:$PATH
+
+[ -s ~/.guild/bash_completion ] && . ~/.guild/bash_completion  # Enable completion for guild
+
+# pudb breakpoint()
+export PYTHONBREAKPOINT="pudb.set_trace"
