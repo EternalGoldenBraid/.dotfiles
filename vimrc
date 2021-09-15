@@ -138,6 +138,7 @@ colorscheme elflord
 " Filetype specific commenting
 autocmd FileType javascript nnoremap <buffer> <localleader>c I//<esc> 
 autocmd FileType python nnoremap <buffer> <localleader>c I#<esc>
+autocmd FileType python noremap <buffer> <localleader>b Obreakpoint()<esc>
 autocmd FileType css nnoremap <buffer> <localleader><localleader>c I/*<esc>
 autocmd FileType css nnoremap <buffer> <localleader>c I*/<esc>
 autocmd FileType cpp nnoremap <buffer> <localleader>c I//<esc>
@@ -199,4 +200,4 @@ let g:pydiciton_location = '/$HOME/vim/pack/plugins/start/pydictio/complete-dict
 let g:pydiction_menu_height = 3
 
 " pudb setup
-set tabstop=4
+"set tabstop=4

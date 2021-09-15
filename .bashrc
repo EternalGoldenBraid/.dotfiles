@@ -68,3 +68,5 @@ PATH=/usr/.local/bin:$PATH
 
 # pudb breakpoint()
 export PYTHONBREAKPOINT="pudb.set_trace"
+alias dots='cd ~/.dotfiles'
+IFNOREEOF=3
