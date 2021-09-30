@@ -252,7 +252,7 @@ bindsym ctrl+shift+alt+d exec firefox "https://dailyapp.eu.pythonanywhere.com/lo
 # Bluetooth devices
 bindsym ctrl+$mod+k exec blueman-manager
 # Open TUNI calendar
-bindsym ctrl+k exec firefox "https://outlook.office.com/calendar/view/week"
+bindsym $mod+alt+k exec firefox "https://outlook.office.com/calendar/view/week"
 bindsym ctrl+alt+n exec firefox "https://www.notion.so/GTD-Dashboard-855551da58654b5cb4fc0a152b3e3e67"
 # For future i3 monitor settings, Look at arand and xrand
 

@@ -31,7 +31,7 @@ alias opnet='netti connect AndroidAP_3058'
 # Uni
 alias course='cd ~/Documents/Study/Bachelor_0/Semester_1/'
 alias mage='g++ main.cpp -Wall -o main.exe'
-alias study='cd ~/Study/Bachelor_2/Semester_1/Intro_ML/Week3/Bayes_classifier/'
+alias study='cd ~/Study/Bachelor_2/Semester_1/Intro_ML/Week4/NeuralNetworks/'
 
 # ssh
 if [ -z "$SSH_AUTH_SOCK" ] ; then
@@ -60,7 +60,7 @@ alias aurup='~/.config/i3/i3blocks/aur-update'
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/nicklas/.mujoco/mjpro150/bin
 
-source ~/.screenlayout/home.sh
+#source ~/.screenlayout/home.sh
 
 PATH=/usr/.local/bin:$PATH
 
