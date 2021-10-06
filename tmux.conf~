@@ -1,0 +1,9 @@
+# Split panes like vim
+bind s split-window -v
+bind v split-window -h
+
+# Vim like pane navigation
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
