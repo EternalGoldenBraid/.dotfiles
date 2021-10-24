@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/nicklas/Study/Bachelor_1/Semester_1/Prg2/qpnifi/student/12/build-find_dialog-Desktop-Debug'
+let g:netrw_dirhist_1='/home/nicklas/Study/Bachelor_1/Semester_1/Prg2/qpnifi/examples/10/integral'
+let g:netrw_dirhist_0='/home/nicklas/Study/Bachelor_1/Semester_1/Prg2/qpnifi/student/05/points'
+let g:netrw_dirhist_9='/home/nicklas/Study/Bachelor_1/Semester_1/Prg2/qpnifi/student/05/wordcount'
+let g:netrw_dirhist_8='/home/nicklas/Study/Bachelor_1/Semester_1/Prg2/qpnifi/examples/05/calendar'
+let g:netrw_dirhist_7='/home/nicklas/.dotfiles'
+let g:netrw_dirhist_6='/home/nicklas'
+let g:netrw_dirhist_5='/home/nicklas/.dotfiles'
+let g:netrw_dirhist_4='/home/nicklas/.config'
+let g:netrw_dirhist_3='/home/nicklas/Study/Bachelor_1/Semester_1/Prg2/qpnifi/.git'
