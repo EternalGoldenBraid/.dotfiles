@@ -25,3 +25,15 @@
 [submodule "vim/pack/plugins/start/pydiction"]
 	path = vim/pack/plugins/start/pydiction
 	url = https://github.com/rkulla/pydiction.git
+[submodule ".vim/pack/plugins/start/syntastic"]
+	path = .vim/pack/plugins/start/syntastic
+	url = git@github.com:vim-syntastic/syntastic.git
+[submodule ".vim/pack/plugins/start/ultisnips"]
+	path = .vim/pack/plugins/start/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
+[submodule ".vim/pack/plugins/start/vimtex"]
+	path = .vim/pack/plugins/start/vimtex
+	url = git@github.com:lervag/vimtex.git
+[submodule ".vim/pack/plugins/start/vim-surround"]
+	path = .vim/pack/plugins/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
