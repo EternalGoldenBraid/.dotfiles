@@ -31,7 +31,7 @@ alias opnet='netti connect AndroidAP_3058'
 # Uni
 alias course='cd ~/Documents/Study/Bachelor_0/Semester_1/'
 alias mage='g++ main.cpp -Wall -o main.exe'
-alias study='cd ~/Study/Bachelor_2/Semester_1/Intro_ML/Week6/rf_learning/'
+alias study='cd ~/Study/Bachelor_2/Semester_1/'
 
 # ssh
 if [ -z "$SSH_AUTH_SOCK" ] ; then
@@ -70,3 +70,10 @@ PATH=/usr/.local/bin:$PATH
 export PYTHONBREAKPOINT="pudb.set_trace"
 alias dots='cd ~/.dotfiles'
 IFNOREEOF=3
+
+openclose() {
+  "$@" &
+  disown
+  exit
+}
+alias tuni='ssh linux-ssh.tuni.fi -l qpnifi'
