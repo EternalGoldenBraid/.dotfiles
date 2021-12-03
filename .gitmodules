@@ -1,6 +1,3 @@
-[submodule "pack/plugins/start/vim-autoclose"]
-	path = pack/plugins/start/vim-autoclose
-	url = https://github.com/Townk/vim-autoclose.git
 [submodule "pack/plugins/start/vim-surround"]
 	path = pack/plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
@@ -16,27 +13,9 @@
 [submodule "inkscape-figures"]
 	path = inkscape-figures
 	url = https://github.com/gillescastel/inkscape-figures.git
-[submodule "vim/pack/plugins/start/vim-surround"]
-	path = vim/pack/plugins/start/vim-surround
-	url = git@github.com:tpope/vim-surround.git
 [submodule "vim/pack/plugins/start/syntastic"]
 	path = vim/pack/plugins/start/syntastic
 	url = git@github.com:vim-syntastic/syntastic.git
-[submodule "vim/pack/plugins/start/pydiction"]
-	path = vim/pack/plugins/start/pydiction
-	url = https://github.com/rkulla/pydiction.git
-[submodule ".vim/pack/plugins/start/syntastic"]
-	path = .vim/pack/plugins/start/syntastic
-	url = git@github.com:vim-syntastic/syntastic.git
-[submodule ".vim/pack/plugins/start/ultisnips"]
-	path = .vim/pack/plugins/start/ultisnips
-	url = git@github.com:SirVer/ultisnips.git
-[submodule ".vim/pack/plugins/start/vimtex"]
-	path = .vim/pack/plugins/start/vimtex
-	url = git@github.com:lervag/vimtex.git
-[submodule ".vim/pack/plugins/start/vim-surround"]
-	path = .vim/pack/plugins/start/vim-surround
-	url = git@github.com:tpope/vim-surround.git
 [submodule "i3lock-multimonitor"]
 	path = i3lock-multimonitor
 	url = git@github.com:ShikherVerma/i3lock-multimonitor.git
