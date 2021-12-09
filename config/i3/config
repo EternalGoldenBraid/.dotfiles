@@ -230,7 +230,10 @@ exec "setxkbmap -layout us,fi"
 exec --no-startup-id "setxkbmap us,fi -option 'grp:alt_shift_toggle'"
 
 # Screen lock
-bindsym $mod+shift+x exec SDL_VIDEO_FULLSCREEN_HEAD=1 i3lock --image ~/Pictures/galaxy.png
+#bindsym $mod+shift+x exec --no-startup-id SDL_VIDEO_FULLSCREEN_HEAD=0 i3lock --image ~/Media/Images/astronaut_jellyfish.png
+#bindsym $mod+shift+x exec SDL_VIDEO_FULLSCREEN_HEAD=1 i3lock --image ~/Media/Images/astronaut_jellyfish.jpg
+bindsym $mod+shift+x exec ~/.dotfiles/i3lock-multimonitor/lock 
+
 # Print screen
 #bindsym ctrl+alt+p exec myscrot -s
 
