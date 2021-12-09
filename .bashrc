@@ -76,7 +76,6 @@ openclose() {
   disown
   exit
 }
-alias tuni='ssh linux-ssh.tuni.fi -l qpnifi'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -93,3 +92,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+alias tuni='ssh linux-ssh.tuni.fi -l qpnifi'
+alias dailyssh='ssh -v dailyapp@ssh.eu.pythonanywhere.com'
