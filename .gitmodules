@@ -1,6 +1,3 @@
-[submodule "pack/plugins/start/vim-surround"]
-	path = pack/plugins/start/vim-surround
-	url = https://github.com/tpope/vim-surround.git
 [submodule "vim/pack/plugins/start/vim-tex.vim"]
 	path = vim/pack/plugins/start/vim-tex.vim
 	url = https://github.com/lervag/vimtex.git
@@ -16,9 +13,6 @@
 [submodule "vim/pack/plugins/start/syntastic"]
 	path = vim/pack/plugins/start/syntastic
 	url = git@github.com:vim-syntastic/syntastic.git
-[submodule "i3lock-multimonitor"]
-	path = i3lock-multimonitor
-	url = git@github.com:ShikherVerma/i3lock-multimonitor.git
 [submodule ".vim/pack/plugins/start/syntastic"]
 	path = .vim/pack/plugins/start/syntastic
 	url = git@github.com:vim-syntastic/syntastic.git
