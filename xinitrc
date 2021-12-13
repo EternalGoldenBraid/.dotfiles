@@ -46,3 +46,4 @@ xbindkeys
 setxkbmap -layout us,fi
 setxkbmap -option 'grp:alt_shift_toggle'
 exec i3
+source ~/.screenlayout/dual_27_24.sh

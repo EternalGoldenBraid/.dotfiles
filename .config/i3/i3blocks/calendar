@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+# Requires yad
 
 WIDTH=${WIDTH:-200}
 HEIGHT=${HEIGHT:-200}
