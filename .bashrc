@@ -23,13 +23,13 @@ alias gitsave='git add --all && git commit -m "unimportant" && git push'
 alias myscrot='scrot -s ~/Media/Images/Screenshots/%b%d-%h%m%s.png'
 
 # Temporary configurations
-alias dailenv='source ~/bin/dailenv.sh'
 alias cdaily='cd ~/Projects/daily/daily'
 alias n='redshift -PO 4000'
 alias nn='redshift -PO 2500'
-alias prg3='cd ~/qpnifi/'
 alias activate='. venv/bin/activate'
-alias opnet='netti connect AndroidAP_3058'
+
+# Tmux startups
+alias daymux='~/.dotfiles/tmux/tmux_daily.sh'
 
 # Uni
 alias course='cd ~/Documents/Study/Bachelor_0/Semester_1/'
@@ -42,7 +42,6 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
     ssh-add
 fi
 
-
 alias netti='nmcli device wifi'
 
 # Arduino irrigation specific
@@ -51,11 +50,13 @@ alias arupload='arduino-cli upload -p /dev/ttyUSB0 --fqbn arduino:avr:uno'
 
 # Audio commands
 alias mictest='arecord -f S24_LE -c 2 -r 192000 -d 10 /tmp/test.wav && aplay /tmp/test.wav'
-#source "$HOME/.cargo/env"
+
+### Package management
 
 # Check for aur updates using a python script.
 alias aurup='~/.config/i3/i3blocks/aur-update'
-. "$HOME/.cargo/env"
+
+alias pacinstall='sudo pacman -Syu'
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/nicklas/.mujoco/mjpro150/bin
 
@@ -76,6 +77,11 @@ openclose() {
   exit
 }
 
+# SSH Connections.
+source ~/.exports
+alias tuni='ssh linux-ssh.tuni.fi -l $TUNIUSERNAME'
+alias dailyssh='ssh -v $DAILYUSERNAME@ssh.eu.pythonanywhere.com'
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/usr/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -92,5 +98,3 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 
-alias tuni='ssh linux-ssh.tuni.fi -l qpnifi'
-alias dailyssh='ssh -v dailyapp@ssh.eu.pythonanywhere.com'

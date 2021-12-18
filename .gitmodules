@@ -19,3 +19,6 @@
 [submodule "i3lock-multimonitor"]
 	path = i3lock-multimonitor
 	url = https://github.com/shikherverma/i3lock-multimonitor.git
+[submodule "tmux/tpm"]
+	path = tmux/tpm
+	url = https://github.com/tmux-plugins/tpm
