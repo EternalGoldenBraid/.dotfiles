@@ -2,11 +2,8 @@
 .config/libreoffice*
 .config/Microsoft/
 .config/chromium
-.config/QtProject.conf
-.config/'Unknown Organization'/
 .config/nautilus/
 .config/QtProject*
-.config/Unknown Organization*
 .config/dconf
 .config/Element
 .config/JetBrains
@@ -18,4 +15,9 @@
 .config/vlc
 .config/wireshark
 .config/zoomus.conf
+.config/Slack
+.config/discord
+.config/protonvpn
+.config/spotify
+.config/systemd
 
