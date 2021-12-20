@@ -12,13 +12,13 @@ tmux new-session -d -s $session -n vim
 
 tmux selectp -t 1
 tmux send-keys "cd $rootdir" C-m
-tmux send-keys "vim data_analysis/views.py" C-m
+tmux send-keys "vim data_analysis/data_models.py" C-m
 
 tmux splitw -h -p 50
 tmux send-keys "cd $rootdir" C-m
-tmux send-keys "vim data_analysis/data_models.py" C-m
+tmux send-keys "vim data_analysis/views.py" C-m
 
-tmux selectp -t 1
+tmux selectp -t 2
 tmux splitw -v -p 10
 tmux send-keys "cd $rootdir;.." C-m
 tmux send-keys "activate;flask run" C-m
