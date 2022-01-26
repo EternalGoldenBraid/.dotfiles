@@ -1,0 +1,29 @@
+# more here https://yufanlu.net/2016/10/30/ultisnips/                                                  
+
+snippet pp "print(f'<text: > {var}')" b                                                                   
+print(f"$1DEBUG: {$0}")
+endsnippet                                                                                             
+
+snippet { "{ ... } " i                                                                                 
+{                                                                                                      
+$1                                                                                                     
+endsnippet                                                                                             
+snippet main "main(...) {...}" b                                                                       
+$2 main($1)                                                                                            
+{                                                                                                      
+    $0                                                                                                 
+                                                                                                       
+}                                                                                                      
+endsnippet                                                                                             
+                                                                                                       
+snippet cin "std::cin << ... ;" i                                                                      
+std::cin << $1;                                                                                        
+endsnippet                                                                                             
+                                                                                                       
+# Highlight whatever to add inside the function definition                                             
+snippet fun "function def" b                                                                           
+${2:void} ${1:name}($3){                                                                               
+    ${4:${VISUAL}}      // <--- visual placeholder added                                               
+}                                                                                                      
+endsnippet                                                                                             
+
