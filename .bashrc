@@ -21,6 +21,7 @@ alias home='cd $HOME'
 alias sammu='shutdown -h now'
 alias gitsave='git add --all && git commit -m "unimportant" && git push'
 alias myscrot='scrot -s ~/Media/Images/Screenshots/%b%d-%h%m%s.png'
+alias valo='sudo vim /sys/class/backlight/intel_backlight/brightness'
 
 # Temporary configurations
 alias cdaily='cd ~/Projects/daily/daily'
