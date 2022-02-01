@@ -116,6 +116,20 @@ colorscheme elflord
 " escape from insert mode
 :inoremap jk <esc>
 
+" Paste mode
+function! TogglePaste()
+    if(&paste == 0)
+        set paste
+        echo "Paste Mode Enabled"
+    else
+        set nopaste
+        echo "Paste Mode Disabled"
+    endif
+endfunction
+
+map <leader>pa :call TogglePaste()<cr>
+
+
 " Disable arrow keys in normal mode
 :nnoremap <up> <nop>
 :nnoremap <down> <nop>
