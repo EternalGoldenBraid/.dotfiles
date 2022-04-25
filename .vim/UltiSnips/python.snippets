@@ -1,5 +1,7 @@
 # more here https://yufanlu.net/2016/10/30/ultisnips/                                                  
 
+### Python snippets
+
 snippet pp "print(f'<text: > {var}')" b                                                                   
 print(f"DEBUG$1:")
 print($0)
@@ -32,3 +34,18 @@ ${2:void} ${1:name}($3){
 }                                                                                                      
 endsnippet                                                                                             
 
+## Imports
+snippet imp "some imports" b
+import $1
+$2
+endsnippet                                                                                             
+
+## matplotlib
+snippet sub "fig$2, axs$3 = plt.subplots($0,$1)" b
+fig$3, axs$4 = plt.subplots($1,$2)
+endsnippet                                                                                             
+
+## Debug
+snippet dbg "debugger" b
+import pdb; pdb.set_trace()
+endsnippet

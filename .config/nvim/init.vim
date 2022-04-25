@@ -1,3 +1,8 @@
+" NVIM
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath = &runtimepath
+
+
 " Allow us to use Ctrl-s and Ctrl-q as keybinds
 silent !stty -ixon
 
@@ -29,8 +34,8 @@ if v:progname =~? "evim"
   finish
 endif
 
-" Get the defaults that most users want.
-source $VIMRUNTIME/defaults.vim
+"VIM: Get the defaults that most users want.
+" source $VIMRUNTIME/defaults.vim
 
 if has("vms")
   set nobackup		" do not keep a backup file, use versions instead
