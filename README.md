@@ -32,3 +32,6 @@ To add a new plugin as a submodule:
 
 ### Neovim helpz
 https://blog.claude.nl/tech/howto/Setup-Neovim-as-Python-IDE-with-virtualenvs/
+
+## Python linter
+https://aur.archlinux.org/packages/python-pylsp-mypy
