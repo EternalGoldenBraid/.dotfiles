@@ -29,3 +29,9 @@ To update all the plugins:
 
 To add a new plugin as a submodule:
 	git submodule add https://github.com/manasthakur/foo.git pack/plugins/start/foo
+
+### Neovim helpz
+https://blog.claude.nl/tech/howto/Setup-Neovim-as-Python-IDE-with-virtualenvs/
+
+## Python linter
+https://aur.archlinux.org/packages/python-pylsp-mypy
