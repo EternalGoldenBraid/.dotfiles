@@ -1,5 +1,7 @@
 SETTING UP VIM
 
+TODO: nvim init in config/nvim/init_clean.
+
 Guide used: https://gist.github.com/manasthakur/d4dc9a610884c60d944a4dd97f0b3560
 
 Clone the repository:
@@ -8,6 +10,11 @@ Clone the repository:
 Symlink .vim and .vimrc:
 	ln -sf .dotfiles ~/.vim
 	ln -sf .dotfiles/vimrc ~/.vimrc
+	# And others {nvim, kitty etc...}
+
+Init submodules
+	# https://stackoverflow.com/questions/3796927/how-do-i-git-clone-a-repo-including-its-submodules
+	git submodule update --init
 
 Generate helptags for plugins:
 	vim
