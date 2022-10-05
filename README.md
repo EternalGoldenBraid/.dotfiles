@@ -37,8 +37,21 @@ To update all the plugins:
 To add a new plugin as a submodule:
 	git submodule add https://github.com/manasthakur/foo.git pack/plugins/start/foo
 
-### Neovim helpz
+# Neovim helpz
 https://blog.claude.nl/tech/howto/Setup-Neovim-as-Python-IDE-with-virtualenvs/
+
+## coc.nvim
+### extensions
+https://github.com/neoclide/coc-snippets
+- coc-snippets 3.1.2 ~/.config/coc/extensions/node_modules/coc-snippets
+- coc-pyright 1.1.272 ~/.config/coc/extensions/node_modules/coc-pyright
+- coc-html 1.7.0 ~/.config/coc/extensions/node_modules/coc-html
+- coc-clangd 0.25.0 ~/.config/coc/extensions/node_modules/coc-clangd
+- coc-css 1.3.0 ~/.config/coc/extensions/node_modules/coc-css
+- coc-tsserver 1.11.11 ~/.config/coc/extensions/node_modules/coc-tsserver
+- coc-json 1.6.1 ~/.config/coc/extensions/node_modules/coc-json
+
 
 ## Python linter
 https://aur.archlinux.org/packages/python-pylsp-mypy
+
