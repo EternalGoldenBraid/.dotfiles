@@ -39,7 +39,7 @@ alias daymux='~/.dotfiles/tmux/tmux_daily.sh'
 # Uni
 alias course='cd ~/Documents/Study/Bachelor_0/Semester_1/'
 alias mage='g++ main.cpp -Wall -o main.exe'
-alias study='cd ~/Study/Bachelor_2/Semester_2/'
+alias study='cd ~/Study/Bachelor_3/'
 
 # ssh
 if [ -z "$SSH_AUTH_SOCK" ] ; then
