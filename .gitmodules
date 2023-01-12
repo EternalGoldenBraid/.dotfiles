@@ -31,3 +31,6 @@
 [submodule ".vim/pack/plugins/start/vim-commentary"]
 	path = .vim/pack/plugins/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule ".vim/pack/plugins/start/firenvim"]
+	path = .vim/pack/plugins/start/firenvim
+	url = git@github.com:glacambre/firenvim.git
