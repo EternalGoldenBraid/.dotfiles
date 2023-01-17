@@ -34,3 +34,6 @@
 [submodule ".vim/pack/plugins/start/firenvim"]
 	path = .vim/pack/plugins/start/firenvim
 	url = git@github.com:glacambre/firenvim.git
+[submodule ".vim/pack/plugins/start/vimtex"]
+	path = .vim/pack/plugins/start/vimtex
+	url = git@github.com:lervag/vimtex.git

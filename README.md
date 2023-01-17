@@ -55,3 +55,6 @@ https://github.com/neoclide/coc-snippets
 ## Python linter
 https://aur.archlinux.org/packages/python-pylsp-mypy
 
+
+## Vimtex setup
+https://www.ejmastnak.com/tutorials/vim-latex/intro/
