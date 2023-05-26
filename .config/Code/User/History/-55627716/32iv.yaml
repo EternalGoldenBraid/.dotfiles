@@ -1,5 +1,0 @@
-gnn_model:
-  type: "GCN" # or any other GNN model you want to use
-  num_layers: 2
-  hidden_dim: 64
-  dropout: 0.5

@@ -1,5 +1,0 @@
-project_name: daily
-entity: nicklas
-# wandb_mode: offline
-# wandb_mode: disabled
-wandb_mode: online

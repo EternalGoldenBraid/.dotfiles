@@ -1,5 +1,0 @@
-project_name: GraphInform
-entity: GraphInform
-# wandb_mode: offline
-wandb_mode: disabled
-# wandb_mode: online

@@ -1,6 +1,0 @@
-defaults:
-  # - finetune: finetune_base
-  - finetune: finetune_fast
-  - wandb: defaults
-  - dataset: data_no_local
-  # - dataset: data_all_answers

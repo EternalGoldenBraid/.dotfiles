@@ -1,8 +1,0 @@
-2023-05-05 19:34:56.852 [info] Getting Manifest... github.copilot
-2023-05-05 19:34:56.982 [info] Installing extension: github.copilot
-2023-05-05 19:34:58.659 [warning] Extension signature verification failed with error 'UnknownError': github.copilot
-2023-05-05 19:34:59.452 [info] Extracted extension to /home/nicklas/.vscode/extensions/.a893c3bd-543a-4c0d-b4aa-8176b05d71f3: github.copilot
-2023-05-05 19:34:59.457 [info] Renamed to /home/nicklas/.vscode/extensions/github.copilot-1.85.75
-2023-05-05 19:34:59.458 [info] Extracting extension completed. github.copilot
-2023-05-05 19:34:59.464 [info] Extension installed successfully: github.copilot
-2023-05-05 19:34:59.467 [info] Marked extension as uninstalled github.copilot-1.84.51

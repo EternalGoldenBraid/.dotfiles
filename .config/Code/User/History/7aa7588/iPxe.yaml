@@ -1,7 +1,0 @@
-data_path: "data/data_no_local_questions.csv"
-train_path: "data/finetune_train.csv"
-val_path: "data/finetune_val.csv"
-test_path: "data/finetune_test.csv"
-train_data_size: 0.8
-val_data_size: 0.1
-test_data_size: 0.1
