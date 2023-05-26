@@ -25,3 +25,7 @@ let g:tex_conceal='abdmg'
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsJumpForwardTrigger = '<tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+
+" LTeX grammar check on .tex files
+" https://valentjn.github.io/ltex/vscode-ltex/installation-usage-coc-ltex.html
+let g:coc_filetype_map = {'tex': 'latex'}
