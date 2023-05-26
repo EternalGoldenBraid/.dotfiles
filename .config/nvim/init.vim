@@ -283,3 +283,13 @@ let g:pydiction_menu_height = 3
 
 " pudb setup
 "set tabstop=4
+"
+
+" LTeX grammar check on .tex files
+" https://valentjn.github.io/ltex/vscode-ltex/installation-usage-coc-ltex.html
+"let g:coc_filetype_map = {'tex': 'latex'} 
+"
+
+" firenvim setup
+:set guifont = "Hack\ Nerd\ Font:h11"
+

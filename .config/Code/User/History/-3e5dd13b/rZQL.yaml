@@ -1,0 +1,67 @@
+p_informed_activation: 1.0
+p_spontaneous_activation: 0.0
+
+num_initial_informed: 1
+# num_initial_informed: 4
+# transmission_probabilities: [0.2, 0.4, 0.6]
+# weights: [0.7, 0.25, 0.05]
+transmission_probabilities: [0.2, 0.2, 0.8]
+weights: [0.9, 0.05, 0.05]
+
+# num_graphs: 1000
+num_graphs: 6 # Single graph for debugging.
+# num_graphs: 500
+# num_graphs: 60
+  
+# source_pool: None
+# n: 5
+source_pool: [
+              # ['1', '7' , '13', '1', '30'], 
+              # ['1', '0' , '15', '2', '27'], 
+              # ['1', '7' , '13', '1', '30'], 
+               
+              # ['21'],
+              # ['7'],
+              # ['13'],
+              ['1'],
+              # ['14'],
+              # ['14', '15'],
+              # ['4'],
+              # ['0'],
+              # ['2'],
+              # ['8'],
+              # ['33'],
+              ]
+  
+# direction: 'end_to_initial'
+direction: 'initial_to_end'
+
+# compute_sample_statistics: False
+compute_sample_statistics: True
+
+
+# Pytorch Geometric Dataset
+processed_dir: data/karateclub_simple
+  
+# batch_size: 500
+batch_size: 200
+# batch_size: 20
+# batch_size: 1
+  
+# DATA IO
+load_data: False
+# load_data: True
+
+# Augmentation
+rwalk_length: 10
+# rwalk_length: 1
+  
+# PLOT
+# plot: True
+plot: False
+  
+# DATA STATE
+state: inductive
+# state: transductive
+
+                             

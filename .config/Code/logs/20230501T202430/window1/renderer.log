@@ -1,0 +1,19 @@
+2023-05-01 20:24:30.883 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-01 20:24:30.893 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.remote-repositories' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-01 20:24:30.893 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-01 20:24:30.893 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-01 20:24:31.344 [error] Extension 'github.copilot' wants API proposal 'semanticSimilarity' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-01 20:24:31.345 [error] Extension 'github.copilot' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): inlineCompletionsAdditions, interactive
+product.json (WINS): inlineCompletionsAdditions
+2023-05-01 20:24:31.349 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2023-05-01 20:24:31.350 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-01 20:24:31.379 [info] [GitHub.copilot]: Command `interactiveEditor.start` appears multiple times in the `commands` section.
+2023-05-01 20:24:31.382 [info] [ms-azuretools.vscode-azurecontainerapps]: The `azureWorkspaceDeploy` submenu was already previously registered.
+2023-05-01 20:24:31.382 [info] [ms-azuretools.vscode-azurefunctions]: The `azureWorkspaceDeploy` submenu was already previously registered.
+2023-05-01 20:24:31.391 [warning] [ms-azuretools.vscode-azurecontainerapps]: The `azureWorkspaceDeploy` submenu was already contributed to the `view/title` menu.
+2023-05-01 20:24:31.391 [warning] [ms-azuretools.vscode-azurefunctions]: The `azureWorkspaceDeploy` submenu was already contributed to the `view/title` menu.
+2023-05-01 20:24:31.569 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-01 20:24:31.829 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-01 20:24:34.558 [info] [perf] Render performance baseline is 38ms
+2023-05-01 20:49:16.481 [error] [Extension Host] [ERROR] [streamChoices] [2023-05-01T17:49:16.480Z] Error parsing JSON stream data request cancelled

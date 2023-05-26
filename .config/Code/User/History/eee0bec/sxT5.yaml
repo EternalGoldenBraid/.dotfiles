@@ -1,0 +1,11 @@
+dataset:
+  key: "event_features" # HDF5 key to the dataset
+  path: "data"
+  filename: "data_dump.h5"
+  other_features: 
+    -values: [
+      'meditation',
+      # 'rating_sleep',
+      # 'rating_day',
+      # 'cw', 'screen'
+      ]

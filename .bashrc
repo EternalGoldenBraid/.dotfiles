@@ -93,6 +93,7 @@ openclose() {
 source ~/.exports
 alias tuni='ssh linux-ssh.tuni.fi -l $TUNIUSERNAME'
 alias dailyssh='ssh -v $DAILYUSERNAME@ssh.eu.pythonanywhere.com'
+#alias dailyssh='kitty +kitten ssh $DAILYUSERNAME@ssh.eu.pythonanywhere.com'
 
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi

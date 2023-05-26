@@ -1,0 +1,76 @@
+# Slaps 
+
+### Trainig
+# epochs: 200
+epochs: 200
+# epochs_adj: 5000 # number of epochs
+epochs_adj: 10000 # number of epochs
+epoch_d: 10 # epochs_adj / epoch2 of the epochs will be used for training GNN_DAE
+epochs_adj_warmup: 50
+# lr: 1e-6
+lr_adj: 0.01
+lr_start: 1e-6
+lr_adj_start: 1e-5
+lr_end: 1e-4
+lr_adj_end: 1e-2
+w_decay: 0.0005
+w_decay_adj: 0.0
+# patience: 10
+patience: 3
+ntrials: 1
+
+### Architecture
+# hidden: 512
+hidden: 256
+# hidden: 1024
+hidden_adj: 32
+dropout1: 0.5
+dropout2: 0.5
+dropout_adj1: 0.25
+dropout_adj2: 0.25
+nlayers: 2
+nlayers_adj: 2
+k: 4
+# k: 200
+half_val_as_train: 0
+ratio: 20
+lambda_: 0.1
+nr: 5
+  
+### Data
+knn_metric: 'cosine'
+model: 'end2end'
+# classifier: gat
+classifier: gcn
+
+i: 6
+non_linearity: 'elu'
+mlp_act: 'relu'
+normalization: 'sym'
+mlp_n_layers: 2
+mlp_h: 50
+mlp_epochs: 100
+# gen_mode: 2
+gen_mode: 1
+# gen_mode: 0
+sparse: 0
+noise: 'mask'
+# loss: 'mse'
+loss: 'bce'
+  
+### GAT PARAMS
+nheads: 1
+concat_multihead: False
+
+weight_decay: 0.01
+  
+# Data IO
+# Save or load bert encodings.
+slaps_save_dir: "slaps"
+
+load_saved_data: True
+save_data: False
+# load_saved_data: False
+# save_data: True
+ 
+save_adjacency: True

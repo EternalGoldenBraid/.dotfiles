@@ -1,0 +1,37 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "/home/nicklas/.vimrc",
+    "telemetry.telemetryLevel": "off",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#00FD61",
+        "terminal.background": "#383737"
+    },
+    "python.linting.mypyEnabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "remote.SSH.connectTimeout": 30,
+    "zenMode.hideLineNumbers": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": false,
+        "markdown": true
+    },
+    "jupyter.askForKernelRestart": false,
+    "window.zoomLevel": -1,
+    "vscode-neovim.neovimExecutablePaths.win32": "P:\\Builds\\nvim-win64",
+    "remote.SSH.defaultForwardedPorts": [],
+    "this is a comment terminal.integrated.shell.linuix": "/usr/bin/tmux",
+    "this is a comment terminal.integrated.shellArgs.linux": [
+        "new-session",
+        "-A",
+        "-s",
+        "nvim"
+    ],
+    "files.autoSave": "afterDelay",
+}

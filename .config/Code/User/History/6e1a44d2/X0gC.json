@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "/home/nicklas/.vimrc",
+    "telemetry.telemetryLevel": "off",
+    "window.zoomLevel": -2,
+
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    
+    "workbench.colorCustomizations" : {
+        "terminal.foreground" : "#00FD61",
+        "terminal.background" : "#383737"
+    },
+    "python.linting.mypyEnabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "remote.SSH.connectTimeout": 30
+}

@@ -1,0 +1,25 @@
+# model: slaps
+model: mlp
+
+defaults:
+  - data: dataset
+  # - data: data
+  - model/gnns: gnn
+  # - model: slaps
+  - model: $
+  - training: train_basic
+  - model/language_encoders: bert # Choose the language encoder you want to use here
+  # - mode: development
+  - mode: production
+  - wandb: defaults
+
+# model:
+#   _target_: src.models.YourModelClass # Replace this with the path to your model class
+#   # Add other model configuration parameters here
+
+# training:
+#   _target_: src.training.Trainer # Replace this with the path to your training class
+#   device: "cuda" # or "cpu"
+
+seed: 42
+outputs_dir: outputs

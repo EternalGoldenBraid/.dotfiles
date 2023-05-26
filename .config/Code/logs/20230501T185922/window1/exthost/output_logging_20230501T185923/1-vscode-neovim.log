@@ -1,0 +1,335 @@
+
+
+Error detected while processing /home/nicklas/.dotfiles/.config/nvim/init.vim:
+line  293:
+E488: Trailing characters: firenvim setup: # firenvim setup
+(variable) new_lines: list[Unknown]
+(variable) play_obj: Unknown
+reportMissingModuleSource: Import "pyaudio" could not be resolved from source
+reportMissingModuleSource: Import "pyaudio" could not be resolved from source
+reportMissingModuleSource: Import "pyaudio" could not be resolved from source
+reportMissingImports: Import "simpleaudio" could not be resolved
+reportMissingImports: Import "simpleaudio" could not be resolved
+reportMissingImports: Import "simpleaudio" could not be resolved
+reportGeneralTypeIssues: Function declaration "play_tone" is obscured by a declaration of the same name
+reportGeneralTypeIssues: Function declaration "play_tone" is obscured by a declaration of the same name
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+reportUndefinedVariable: "play_tone" is not defined
+1 change; before #3  2 seconds ago
+reportUndefinedVariable: "AudioPlayer" is not defined
+5 fewer lines
+5 fewer lines
+reportUndefinedVariable: "AudioPlayer" is not defined
+reportUndefinedVariable: "AudioPlayer" is not defined
+5 more lines
+reportUndefinedVariable: "AudioPlayer" is not defined
+Expected indented block
+Expected indented block
+reportMissingImports: Import "simpleaudio" could not be resolved
+reportMissingImports: Import "simpleaudio" could not be resolved
+reportMissingImports: Import "simpleaudio" could not be resolved
+reportMissingImports: Import "simpleaudio" could not be resolved
+reportMissingImports: Import "simpleaudio" could not be resolved
+reportMissingModuleSource: Import "pyaudio" could not be resolved from source
+reportMissingImports: Import "simpleaudio" could not be resolved
+reportMissingImports: Import "pygame" could not be resolved
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Unpack operation not allowed in this context
+Unpack operation not allowed in this context
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+Already at oldest change
+reportUndefinedVariable: "AudioPlayer" is not defined
+reportUndefinedVariable: "AudioPlayer" is not defined
+reportUndefinedVariable: "AudioPlayer" is not defined
+reportUndefinedVariable: "AudioPlayer" is not defined
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportMissingImports: Import "utils" could not be resolved
+reportMissingImports: Import "utils" could not be resolved
+reportMissingImports: Import "utils" could not be resolved
+reportMissingImports: Import "utils" could not be resolved
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+Expected member name after "."
+Expected member name after "."
+Expected member name after "."
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audio_player" is not defined
+reportUndefinedVariable: "audioplayer" is not defined
+reportUndefinedVariable: "audioplayer" is not defined
+reportUndefinedVariable: "audioplayer" is not defined
+reportUndefinedVariable: "audioplayer" is not defined
+(parameter) radius: float
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+Positional argument cannot appear after keyword arguments
+reportMissingImports: Import "audio_utils" could not be resolved
+reportMissingImports: Import "audio_utils" could not be resolved
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+E464: Ambiguous use of user-defined command
+(function) get_location: Unknown
+18 fewer lines
+18 fewer lines
+21 fewer lines
+21 fewer lines
+reportGeneralTypeIssues: Cannot access member "close" for type "AudioPlayer"   Member "close" is unknown
+reportGeneralTypeIssues: Cannot access member "close" for type "AudioPlayer"   Member "close" is unknown
+reportGeneralTypeIssues: Cannot access member "close" for type "AudioPlayer"   Member "close" is unknown
+5 fewer lines
+5 fewer lines
+reportGeneralTypeIssues: Cannot access member "close" for type "AudioPlayer"   Member "close" is unknown
+reportUndefinedVariable: "self" is not defined
+Unindent amount does not match previous indent
+reportUndefinedVariable: "self" is not defined
+Unexpected indentation
+reportUndefinedVariable: "self" is not defined
+Unexpected indentation
+Unexpected indentation
+Unexpected indentation
+Unexpected indentation
+Unexpected indentation
+reportUndefinedVariable: "self" is not defined
+Unexpected indentation
+Unexpected indentation
+Unexpected indentation
+Unexpected indentation
+Unexpected indentation
+Unexpected indentation
+Unexpected indentation
+reportGeneralTypeIssues: Cannot access member "close" for type "AudioPlayer"   Member "close" is unknown
+reportGeneralTypeIssues: Cannot access member "close" for type "AudioPlayer"   Member "close" is unknown
+(variable) audio_player: AudioPlayer
+(variable) sine_wave: Any
+4 lines yanked
+reportGeneralTypeIssues: Cannot access member "audioplayer" for type "RiboVisualizer"   Member "audioplayer" is unknown
+4 more lines
+reportGeneralTypeIssues: Cannot access member "audioplayer" for type "RiboVisualizer"   Member "audioplayer" is unknown
+reportGeneralTypeIssues: Cannot access member "audioplayer" for type "RiboVisualizer"   Member "audioplayer" is unknown
+reportUndefinedVariable: "audio_player" is not defined
+Expected indented block
+Expected indented block
+Expected indented block
+reportUndefinedVariable: "self" is not defined
+Expected indented block
+Expected indented block
+Expected indented block
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+(function) terminate: Unknown
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+(function) terminate: Unknown
+(variable) audio_player: AudioPlayer
+reportMissingImports: Import "pygame" could not be resolved
+reportMissingImports: Import "pygame" could not be resolved
+reportMissingImports: Import "pygame" could not be resolved
+reportMissingImports: Import "pygame" could not be resolved
+6 fewer lines
+6 fewer lines
+reportMissingImports: Import "utils" could not be resolved
+reportMissingImports: Import "audio_utils" could not be resolved
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportMissingImports: Import "audio_utils" could not be resolved
+reportMissingImports: Import "audio_utils" could not be resolved
+reportMissingImports: Import "audio_utils" could not be resolved
+reportMissingImports: Import "utils" could not be resolved
+reportMissingImports: Import "utils" could not be resolved
+reportMissingImports: Import "audio_utils" could not be resolved
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+(variable) tick: float
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+"(" was not closed
+reportUndefinedVariable: "fps" is not defined
+5 more lines; before #40  4 seconds ago
+5 fewer lines; after #40  5 seconds ago
+5 more lines; before #40  6 seconds ago
+5 fewer lines; after #40  7 seconds ago
+5 more lines; before #40  8 seconds ago
+1 change; before #39  51 seconds ago
+"(" was not closed
+1 change; after #39  52 seconds ago
+"(" was not closed
+"(" was not closed
+(variable) fps: Literal[120]
+reportUnboundVariable: "t_idx" is possibly unbound
+(variable) audio_player: Unknown
+1 more line; before #48  20:00:07
+1 line less; after #48  20:00:07
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportMissingModuleSource: Import "pyaudio" could not be resolved from source
+3 fewer lines
+3 fewer lines
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "close" for type "AudioPlayer"   Member "close" is unknown
+reportUndefinedVariable: "AudioPlayerParallel" is not defined
+/parallel             
+/parallel      W [1/1]
+(class) AudioPlayerParallel
+Unexpected indentation
+Unexpected indentation
+Unexpected indentation
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "et_sample_rate" for type "AudioPlayerParallel"   Member "et_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "et_sample_rate" for type "AudioPlayerParallel"   Member "et_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "_sample_rate" for type "AudioPlayerParallel"   Member "_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "_sample_rate" for type "AudioPlayerParallel"   Member "_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "_sample_rate" for type "AudioPlayerParallel"   Member "_sample_rate" is unknown
+reportGeneralTypeIssues: Object of type "int" is not callable
+reportGeneralTypeIssues: Object of type "int" is not callable
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+Expected member name after "."
+Expected member name after "."
+Expected member name after "."
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+reportGeneralTypeIssues: Cannot access member "get_sample_rate" for type "PyAudio"   Member "get_sample_rate" is unknown
+Expected member name after "."
+Expected member name after "."
+Expected member name after "."
+reportMissingImports: Import "utils" could not be resolved
+reportMissingImports: Import "audio_utils" could not be resolved
+reportMissingImports: Import "audio_utils" could not be resolved
+reportMissingImports: Import "audio_utils" could not be resolved
+reportMissingImports: Import "audio_utils" could not be resolved
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "play_beep" is not a known member of "None"
+reportOptionalMemberAccess: "beep" is not a known member of "None"
+reportOptionalMemberAccess: "beep" is not a known member of "None"
+reportOptionalMemberAccess: "beep" is not a known member of "None"
+reportUnboundVariable: "t_idx" is possibly unbound
+reportUndefinedVariable: "self" is not defined
+1 line less; before #52  3 seconds ago
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportUndefinedVariable: "frequency" is not defined
+reportUndefinedVariable: "frequency" is not defined
+reportUndefinedVariable: "frequency" is not defined
+reportUndefinedVariable: "frequency" is not defined
+reportUndefinedVariable: "frequency" is not defined
+reportUndefinedVariable: "frequency" is not defined
+reportUndefinedVariable: "frequency" is not defined
+Expected expression
+Expected expression
+Expected expression
+/volume             
+/volume        [4/4]
+reportOptionalMemberAccess: "beep" is not a known member of "None"
+1 more line; before #56  11 seconds ago
+1 line less; after #56  12 seconds ago
+reportOptionalMemberAccess: "beep" is not a known member of "None"
+reportUnboundVariable: "t_idx" is possibly unbound
+reportOptionalMemberAccess: "beep" is not a known member of "None"
+reportOptionalMemberAccess: "beep" is not a known member of "None"
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportGeneralTypeIssues: Expected type expression but received "Overload[(object: _ArrayType@array, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: Literal[True], ndmin: int = ..., like: ArrayLike = ...) -> _ArrayType@array, (object: _ArrayLike[_SCT@array], dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: object, dtype: None = ..., *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any], (object: Any, dtype: _DTypeLike[_SCT@array], *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[_SCT@array], (object: Any, dtype: DTypeLike, *, copy: bool | _CopyMode = ..., order: _OrderKACF = ..., subok: bool = ..., ndmin: int = ..., like: ArrayLike = ...) -> NDArray[Any]]"
+reportOptionalMemberAccess: "beep" is not a known member of "None"

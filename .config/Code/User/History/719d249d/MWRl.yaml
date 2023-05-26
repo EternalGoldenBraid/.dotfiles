@@ -1,0 +1,22 @@
+
+defaults:
+  - data: dataset
+  - training: train_basic
+  - model/language_encoders: bert # Choose the language encoder you want to use here
+  - wandb: defaults
+  - model: mlp # or slaps
+  - mode: development # or production
+   
+# model:
+#   _target_: src.models.YourModelClass # Replace this with the path to your model class
+#   # Add other model configuration parameters here
+
+# training:
+#   _target_: src.training.Trainer # Replace this with the path to your training class
+#   device: "cuda" # or "cpu"
+
+seed: 42
+paths:
+  outputs_dir: outputs
+  log_dir: logs
+  ckpt_dir: checkpoints

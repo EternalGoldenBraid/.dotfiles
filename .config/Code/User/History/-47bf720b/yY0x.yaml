@@ -1,0 +1,32 @@
+gnn_model:
+  type: "GCN" # or any other GNN model you want to use
+  num_layers: 2
+  hidden_dim: 64
+  dropout: 0.5
+    
+#     model:
+ 
+# gnn:
+#   _target_: your_gnn_module.GNNModel
+#   embedding_dim: 300
+#   num_layers: 3
+#   dropout: 0.5
+
+data:
+  dataset:
+    _target_: your_dataset_module.EventFeatureDataset
+    transform:
+      _target_: your_transform_module.TemporalEncoding
+      feature_cols: ['meditation',
+                     'rating_sleep',
+                     'rating_day',
+                     'cw', 'screen'
+                     ]
+      time_col: 'time'
+    pre_transform:
+      _target_: torch_geometric.transforms.ToSparseTensor
+
+paths:
+  log_dir: logs
+  ckpt_dir: checkpoints
+

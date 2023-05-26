@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "/home/nicklas/.vimrc",
+    "telemetry.telemetryLevel": "off",
+    "window.zoomLevel": -1
+}

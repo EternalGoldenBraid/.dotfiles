@@ -1,0 +1,25 @@
+2023-05-01 20:24:33.028 [info] Log level: Info
+2023-05-01 20:24:33.028 [info] Validating found git in: "git"
+2023-05-01 20:24:33.028 [info] Using git "2.40.0" from "git"
+2023-05-01 20:24:33.028 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-01 20:24:33.028 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.028 [info] > git rev-parse --show-toplevel [16ms]
+2023-05-01 20:24:33.028 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.028 [info] > git rev-parse --show-toplevel [220ms]
+2023-05-01 20:24:33.028 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.028 [info] > git rev-parse --show-toplevel [47ms]
+2023-05-01 20:24:33.028 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.041 [info] > git rev-parse --show-toplevel [23ms]
+2023-05-01 20:24:33.041 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.053 [info] > git rev-parse --show-toplevel [3ms]
+2023-05-01 20:24:33.053 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.069 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-01 20:24:33.069 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.079 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-01 20:24:33.079 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.091 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-01 20:24:33.091 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.140 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-01 20:24:33.140 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-01 20:24:33.585 [info] > git rev-parse --show-toplevel [89ms]
+2023-05-01 20:24:33.585 [info] fatal: not a git repository (or any of the parent directories): .git

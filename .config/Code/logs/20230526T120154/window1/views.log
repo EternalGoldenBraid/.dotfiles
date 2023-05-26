@@ -1,0 +1,19 @@
+2023-05-26 12:01:55.392 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2023-05-26 12:01:55.392 [info] Added views:terminal in workbench.panel.markers
+2023-05-26 12:01:55.392 [info] Added views:workbench.panel.output in workbench.panel.output
+2023-05-26 12:01:55.392 [info] Added views:outline in workbench.view.explorer
+2023-05-26 12:01:55.392 [info] Added views:workbench.scm in workbench.view.scm
+2023-05-26 12:01:55.392 [info] Added views:workbench.view.search in workbench.view.search
+2023-05-26 12:01:55.392 [info] Added views:timeline in workbench.view.explorer
+2023-05-26 12:01:55.392 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2023-05-26 12:01:55.565 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2023-05-26 12:01:55.687 [info] Added views:fileAnchors,workspaceAnchors,epicAnchors in workbench.view.extension.comment-anchors
+2023-05-26 12:01:55.687 [info] Added views:copilotSidebar.explain,copilotSidebar.translate,copilotSidebar.toolbox,copilotSidebar.generateTests in workbench.view.extension.copilot-labs
+2023-05-26 12:01:55.687 [info] Added views:azureResourceGroups,azureWorkspace,ms-azuretools.helpAndFeedback in workbench.view.extension.azure
+2023-05-26 12:01:55.691 [info] Added views:azureActivityLog in workbench.view.extension.azurePanel
+2023-05-26 12:01:55.691 [info] Added view jupyterViewVariables in the container workbench.view.extension.jupyter-variables and showing it. undefined false undefined
+2023-05-26 12:01:55.691 [info] Added view cell-tag in the container workbench.view.extension.jupyter-variables and showing it. undefined false undefined
+2023-05-26 12:01:55.691 [info] Added views:remoteTargets in workbench.view.remote
+2023-05-26 12:01:55.907 [info] Added views:workbench.panel.repl.view in workbench.panel.markers
+2023-05-26 12:01:56.257 [info] Added views:workbench.view.testing in workbench.view.extension.test
+2023-05-26 12:02:15.915 [info] Added views:workbench.views.sync.remoteActivity,workbench.views.sync.machines in workbench.view.sync

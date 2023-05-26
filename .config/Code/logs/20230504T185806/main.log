@@ -1,0 +1,21 @@
+2023-05-04 18:58:06.911 [info] [SharedProcess] using utility process
+2023-05-04 18:58:06.960 [info] update#setState idle
+2023-05-04 18:58:07.618 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-05-04 18:58:07.623 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-05-04 18:58:07.679 [info] [UtilityProcess type: shared-process, pid: 4079956]: successfully created
+2023-05-04 18:58:07.679 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-05-04 18:58:07.683 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 4079966]: successfully created
+2023-05-04 18:58:07.686 [info] [UtilityProcess id: 1, type: extensionHost, pid: 4079967]: successfully created
+2023-05-04 18:58:07.947 [info] [UtilityProcess id: 2, type: extensionHost, pid: <none>]: creating new...
+2023-05-04 18:58:07.950 [info] [UtilityProcess id: 2, type: extensionHost, pid: 4080138]: successfully created
+2023-05-04 18:58:36.960 [info] update#setState checking for updates
+2023-05-04 18:58:36.965 [info] update#setState available for download
+2023-05-04 19:05:59.923 [info] [UtilityProcess id: 2, type: extensionHost, pid: 4080138]: received exit event with code 15
+2023-05-04 19:05:59.923 [info] Extension host with pid 4080138 exited with code: 15, signal: unknown.
+2023-05-04 19:05:59.924 [error] [UtilityProcess id: 2, type: extensionHost, pid: 4080138]: crashed with code 15 and reason 'killed'
+2023-05-04 19:05:59.933 [info] [UtilityProcess type: shared-process, pid: 4079956]: received exit event with code 15
+2023-05-04 19:05:59.934 [error] [UtilityProcess type: shared-process, pid: 4079956]: crashed with code 15 and reason 'killed'
+2023-05-04 19:05:59.934 [error] [SharedProcess] renderer process gone (reason: killed, code: 15)
+2023-05-04 19:05:59.950 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 4079966]: received exit event with code 15
+2023-05-04 19:05:59.951 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-05-04 19:05:59.951 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 4079966]: crashed with code 15 and reason 'killed'

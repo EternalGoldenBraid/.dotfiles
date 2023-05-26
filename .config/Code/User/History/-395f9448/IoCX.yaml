@@ -1,0 +1,6 @@
+project_name: vaaliperttu
+use_wandb: True
+entity: vaaliperttu
+  
+# wandb_mode: disabled
+wandb_mode: online

@@ -1,0 +1,28 @@
+2023-05-04 18:58:07.293 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-04 18:58:07.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.remote-repositories' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-04 18:58:07.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-04 18:58:07.303 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-04 18:58:07.725 [error] Extension 'github.copilot' wants API proposal 'semanticSimilarity' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-04 18:58:07.725 [error] Extension 'github.copilot' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): inlineCompletionsAdditions, interactive
+product.json (WINS): inlineCompletionsAdditions
+2023-05-04 18:58:07.730 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2023-05-04 18:58:07.730 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-04 18:58:07.761 [info] [GitHub.copilot]: Command `interactiveEditor.start` appears multiple times in the `commands` section.
+2023-05-04 18:58:07.764 [info] [ms-azuretools.vscode-azurecontainerapps]: The `azureWorkspaceDeploy` submenu was already previously registered.
+2023-05-04 18:58:07.764 [info] [ms-azuretools.vscode-azurefunctions]: The `azureWorkspaceDeploy` submenu was already previously registered.
+2023-05-04 18:58:07.774 [warning] [ms-azuretools.vscode-azurecontainerapps]: The `azureWorkspaceDeploy` submenu was already contributed to the `view/title` menu.
+2023-05-04 18:58:07.774 [warning] [ms-azuretools.vscode-azurefunctions]: The `azureWorkspaceDeploy` submenu was already contributed to the `view/title` menu.
+2023-05-04 18:58:07.951 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-04 18:58:08.163 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-04 18:58:10.767 [info] [perf] Render performance baseline is 30ms
+2023-05-04 18:58:13.224 [warning] [ms-azuretools.vscode-azurecontainerapps]: The `azureWorkspaceDeploy` submenu was already contributed to the `view/title` menu.
+2023-05-04 18:58:13.224 [warning] [ms-azuretools.vscode-azurefunctions]: The `azureWorkspaceDeploy` submenu was already contributed to the `view/title` menu.
+2023-05-04 18:58:13.243 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-04 18:58:14.004 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-05-04 18:58:14.015 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-04 18:58:18.394 [warning] [ms-azuretools.vscode-azurecontainerapps]: The `azureWorkspaceDeploy` submenu was already contributed to the `view/title` menu.
+2023-05-04 18:58:18.394 [warning] [ms-azuretools.vscode-azurefunctions]: The `azureWorkspaceDeploy` submenu was already contributed to the `view/title` menu.
+2023-05-04 18:58:18.410 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-04 18:58:18.774 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.
+2023-05-04 18:58:19.046 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because the extension is unknown or cannot execute for extension host kind: LocalWebWorker.

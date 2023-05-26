@@ -1,0 +1,704 @@
+Telemetry level is off
+Experiments are disabled, only manually opted experiments are active.
+> conda info --json
+Python interpreter path: ~/mambaforge/envs/math/bin/python
+> /bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> /sbin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/audio/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/biology/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/printEnvVariables.py
+shell: bash
+> ~/mambaforge/envs/daily/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/eigen_steve/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/foo/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/graph/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/interview/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/jlab/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/jlab_template/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/math/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/molecules/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/ove6d/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/port6/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/vaaliperttu/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/vaaliwhisper/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/mambaforge/envs/port6/bin/python3.11 -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+> ~/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+[ERROR 2023-4-4 18:58:10.156]: Error: Command failed: /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python -I /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+/bin/sh: line 1: /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python: No such file or directory
+
+    at ChildProcess.exithandler (node:child_process:408:12)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12) {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '/home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python -I /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py'
+}
+Starting Pylance language server.
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./circles.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+##########Linting Output - mypy##########
+
+Success: no issues found in 1 source file
+> ~/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python -I ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+[ERROR 2023-4-4 18:58:12.171]: Error: Command failed: /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python -I /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py
+/bin/sh: line 1: /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python: No such file or directory
+
+    at ChildProcess.exithandler (node:child_process:408:12)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12) {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '/home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python -I /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/interpreterInfo.py'
+}
+##########Linting Output - mypy##########
+
+utils.py:56:9: error: Attribute "old_position" already defined on line 43  [no-redef]
+utils.py:57:9: error: Attribute "position" already defined on line 44  [no-redef]
+utils.py:61:9: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+utils.py:62:9: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+Found 2 errors in 1 file (checked 1 source file)
+##########Linting Output - mypy##########
+
+circles.py:16: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:16: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:28:33: error: Need type annotation for "pos"  [var-annotated]
+circles.py:81: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:81: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:89:38: error: Value of type np.array? is not indexable  [index]
+circles.py:101:20: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:102:29: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:108:66: error: Argument 1 to "draw_lines_between_same_angle_ribosomes" of "RiboVisualizer" has incompatible type "ndarray[Any, dtype[Any]]"; expected "List[Ribosome]"  [arg-type]
+circles.py:148:97: error: Argument "base_frequencies" to "RiboVisualizer" has incompatible type "ndarray[Any, dtype[floating[Any]]]"; expected "List[int]"  [arg-type]
+Found 8 errors in 1 file (checked 1 source file)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./circles.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./circles.py
+cwd: .
+[ERROR 2023-4-4 18:58:53.611]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+##########Linting Output - mypy##########
+
+circles.py:16: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:16: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:28:33: error: Need type annotation for "pos"  [var-annotated]
+circles.py:81: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:81: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:89:38: error: Value of type np.array? is not indexable  [index]
+circles.py:101:20: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:102:29: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:108:66: error: Argument 1 to "draw_lines_between_same_angle_ribosomes" of "RiboVisualizer" has incompatible type "ndarray[Any, dtype[Any]]"; expected "List[Ribosome]"  [arg-type]
+circles.py:148:97: error: Argument "base_frequencies" to "RiboVisualizer" has incompatible type "ndarray[Any, dtype[floating[Any]]]"; expected "List[int]"  [arg-type]
+Found 8 errors in 1 file (checked 1 source file)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+> conda info --json
+Send text to terminal: conda activate math
+[ERROR 2023-4-4 18:58:54.490]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+##########Linting Output - mypy##########
+
+circles.py:16: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:16: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:28:33: error: Need type annotation for "pos"  [var-annotated]
+circles.py:81: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:81: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:89:38: error: Value of type np.array? is not indexable  [index]
+circles.py:101:20: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:102:29: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:108:66: error: Argument 1 to "draw_lines_between_same_angle_ribosomes" of "RiboVisualizer" has incompatible type "ndarray[Any, dtype[Any]]"; expected "List[Ribosome]"  [arg-type]
+circles.py:148:97: error: Argument "base_frequencies" to "RiboVisualizer" has incompatible type "ndarray[Any, dtype[floating[Any]]]"; expected "List[int]"  [arg-type]
+Found 8 errors in 1 file (checked 1 source file)
+Send text to terminal: /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/Projects/maxscience/circles.py
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+##########Linting Output - mypy##########
+
+audio_utils.py:73:9: error: unexpected indent  [syntax]
+Found 1 error in 1 file (errors prevented further checking)
+[ERROR 2023-4-4 18:59:50.733]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+[ERROR 2023-4-4 18:59:53.218]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+##########Linting Output - mypy##########
+
+Success: no issues found in 1 source file
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+##########Linting Output - mypy##########
+
+audio_utils.py:72:47: error: invalid syntax  [syntax]
+Found 1 error in 1 file (errors prevented further checking)
+[ERROR 2023-4-4 18:59:54.957]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+DAP Server launched with command: /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter
+> conda info --json
+Send text to terminal: conda activate math
+Send text to terminal:  /usr/bin/env /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 46481 -- /home/nicklas/Projects/maxscience/circles.py 
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+##########Linting Output - mypy##########
+
+audio_utils.py:73:9: error: unexpected indent  [syntax]
+Found 1 error in 1 file (errors prevented further checking)
+[ERROR 2023-4-4 19:0:1.883]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+##########Linting Output - mypy##########
+
+audio_utils.py:72:47: error: invalid syntax  [syntax]
+Found 1 error in 1 file (errors prevented further checking)
+[ERROR 2023-4-4 19:0:4.31]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+##########Linting Output - mypy##########
+
+audio_utils.py:72:47: error: invalid syntax  [syntax]
+Found 1 error in 1 file (errors prevented further checking)
+[ERROR 2023-4-4 19:0:8.327]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+##########Linting Output - mypy##########
+
+audio_utils.py:72:47: error: invalid syntax  [syntax]
+Found 1 error in 1 file (errors prevented further checking)
+[ERROR 2023-4-4 19:0:11.479]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+##########Linting Output - mypy##########
+
+audio_utils.py:69:47: error: invalid syntax  [syntax]
+Found 1 error in 1 file (errors prevented further checking)
+[ERROR 2023-4-4 19:0:14.417]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+##########Linting Output - mypy##########
+
+audio_utils.py:72:47: error: invalid syntax  [syntax]
+Found 1 error in 1 file (errors prevented further checking)
+[ERROR 2023-4-4 19:0:22.90]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+##########Linting Output - mypy##########
+
+Success: no issues found in 1 source file
+[ERROR 2023-4-4 19:0:23.857]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+##########Linting Output - mypy##########
+
+Success: no issues found in 1 source file
+[ERROR 2023-4-4 19:0:24.591]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+DAP Server launched with command: /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter
+Send text to terminal:  cd /home/nicklas/Projects/maxscience ; /usr/bin/env /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 54065 -- /home/nicklas/Projects/maxscience/circles.py 
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./audio_utils.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+[ERROR 2023-4-4 19:1:26.782]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+##########Linting Output - mypy##########
+
+Success: no issues found in 1 source file
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./circles.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+Send text to terminal: /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/Projects/maxscience/circles.py
+[ERROR 2023-4-4 19:1:28.445]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+##########Linting Output - mypy##########
+
+circles.py:16: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:16: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:28:33: error: Need type annotation for "pos"  [var-annotated]
+circles.py:81: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:81: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:89:38: error: Value of type np.array? is not indexable  [index]
+circles.py:101:20: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:102:29: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:108:66: error: Argument 1 to "draw_lines_between_same_angle_ribosomes" of "RiboVisualizer" has incompatible type "ndarray[Any, dtype[Any]]"; expected "List[Ribosome]"  [arg-type]
+circles.py:148:97: error: Argument "base_frequencies" to "RiboVisualizer" has incompatible type "ndarray[Any, dtype[floating[Any]]]"; expected "List[int]"  [arg-type]
+Found 8 errors in 1 file (checked 1 source file)
+DAP Server launched with command: /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter
+Send text to terminal:  cd /home/nicklas/Projects/maxscience ; /usr/bin/env /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 46945 -- /home/nicklas/Projects/maxscience/circles.py 
+DAP Server launched with command: /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter
+Send text to terminal:  cd /home/nicklas/Projects/maxscience ; /usr/bin/env /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 47565 -- /home/nicklas/Projects/maxscience/circles.py 
+Send text to terminal: /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/Projects/maxscience/circles.py
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/linter.py -m mypy --follow-imports=silent --ignore-missing-imports --show-column-numbers --no-pretty ./circles.py
+cwd: .
+> conda run -n math --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear
+cwd: .
+[ERROR 2023-4-4 19:3:46.81]: Error discovering pytest tests:
+ n [Error]: Traceback (most recent call last):
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py", line 26, in <module>
+    runpy.run_path(module, run_name="__main__")
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/nicklas/mambaforge/envs/math/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py", line 17, in <module>
+    from testing_tools.adapter.__main__ import parse_args, main
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/__main__.py", line 9, in <module>
+    from . import pytest, report
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/__init__.py", line 7, in <module>
+    from ._discovery import discover
+  File "/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/adapter/pytest/_discovery.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+ERROR conda.cli.main_run:execute(49): `conda run python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/get_output_via_markers.py /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir /home/nicklas/Projects/maxscience -s --cache-clear` failed. (See above for error)
+
+    at ChildProcess.<anonymous> (/home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/out/client/extension.js:2:238829)
+    at Object.onceWrapper (node:events:646:26)
+    at ChildProcess.emit (node:events:526:28)
+    at maybeClose (node:internal/child_process:1092:16)
+    at Socket.<anonymous> (node:internal/child_process:451:11)
+    at Socket.emit (node:events:526:28)
+    at Pipe.<anonymous> (node:net:687:12)
+##########Linting Output - mypy##########
+
+circles.py:16: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:16: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:28:33: error: Need type annotation for "pos"  [var-annotated]
+circles.py:81: error: Function "numpy.core.multiarray.array" is not valid as a type  [valid-type]
+circles.py:81: note: Perhaps you need "Callable[...]" or a callback protocol?
+circles.py:89:38: error: Value of type np.array? is not indexable  [index]
+circles.py:101:20: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:102:29: error: Cannot determine type of "lines_buffer"  [has-type]
+circles.py:108:66: error: Argument 1 to "draw_lines_between_same_angle_ribosomes" of "RiboVisualizer" has incompatible type "ndarray[Any, dtype[Any]]"; expected "List[Ribosome]"  [arg-type]
+circles.py:148:97: error: Argument "base_frequencies" to "RiboVisualizer" has incompatible type "ndarray[Any, dtype[floating[Any]]]"; expected "List[int]"  [arg-type]
+Found 8 errors in 1 file (checked 1 source file)
+DAP Server launched with command: /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter
+Send text to terminal:  cd /home/nicklas/Projects/maxscience ; /usr/bin/env /home/nicklas/mambaforge/envs/math/bin/python /home/nicklas/.vscode/extensions/ms-python.python-2023.6.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 47269 -- /home/nicklas/Projects/maxscience/circles.py 

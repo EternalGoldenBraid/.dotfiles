@@ -1,0 +1,77 @@
+Visual Studio Code (1.77.3, undefined, desktop)
+Jupyter Extension Version: 2023.3.1201040234.
+Python Extension Version: 2023.6.1.
+Workspace folder /home/nicklas/Projects/maxscience
+info 12:01:56.170: LSP Notebooks experiment is enabled
+error 12:01:57.884: Failed to get activated conda env variables for /home/nicklas/mambaforge/envs/math/bin/python
+                 in 1613ms
+error 12:01:57.884: Unable to determine site packages path for python /home/nicklas/mambaforge/envs/math/bin/python (Conda)
+info 12:01:57.889: Process Execution: > ~/mambaforge/envs/math/bin/python -m pip list
+> ~/mambaforge/envs/math/bin/python -m pip list
+warn 12:01:58.236: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.237: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.238: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.240: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.242: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.243: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.244: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.245: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.247: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.247: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.250: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.251: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.252: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.253: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.254: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.255: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.256: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.257: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.259: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.261: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.262: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.263: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.265: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.265: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.267: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.268: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.270: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.271: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.334: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.335: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.337: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.337: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.339: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.340: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.341: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.342: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.343: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.344: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.345: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.346: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.347: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.348: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.349: No interpreter with path /home/nicklas/mambaforge/envs/port6/bin/python3.11 found in Python API, will convert Uri path to string as Id /home/nicklas/mambaforge/envs/port6/bin/python3.11
+warn 12:01:58.350: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.428: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.429: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.430: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.431: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.432: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.433: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.434: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.436: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.437: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.438: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.439: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.440: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.441: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.442: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.443: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.444: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.445: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.446: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.448: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.448: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.450: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.451: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python
+warn 12:01:58.452: No interpreter with path /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python found in Python API, will convert Uri path to string as Id /home/nicklas/Study/Bachelor_2/Semester_2/mlpr/venv/bin/python

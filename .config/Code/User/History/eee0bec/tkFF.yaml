@@ -1,0 +1,12 @@
+dataset:
+  _target_: src.data.daily_dataset.EventFeatureDataset
+  key: "event_features" # HDF5 key to the dataset
+  root: data
+  filename: "data_dump.h5"
+  other_features: 
+    -values: [
+      'meditation',
+      # 'rating_sleep',
+      # 'rating_day',
+      # 'cw', 'screen'
+      ]

@@ -1,0 +1,4 @@
+dataset:
+  key: "event_features" # HDF5 key to the dataset
+  path: "data"
+  filename: "data_dump.h5"

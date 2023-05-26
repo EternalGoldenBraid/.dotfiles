@@ -1,0 +1,21 @@
+2023-05-05 19:34:51.329 [info] [SharedProcess] using utility process
+2023-05-05 19:34:51.373 [info] update#setState idle
+2023-05-05 19:34:52.025 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-05-05 19:34:52.030 [info] [UtilityProcess id: 1, type: extensionHost, pid: 9518]: successfully created
+2023-05-05 19:34:52.031 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-05-05 19:34:52.034 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-05-05 19:34:52.037 [info] [UtilityProcess type: shared-process, pid: 9519]: successfully created
+2023-05-05 19:34:52.037 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 9520]: successfully created
+2023-05-05 19:34:52.332 [info] [UtilityProcess id: 2, type: extensionHost, pid: <none>]: creating new...
+2023-05-05 19:34:52.335 [info] [UtilityProcess id: 2, type: extensionHost, pid: 9589]: successfully created
+2023-05-05 19:35:21.374 [info] update#setState checking for updates
+2023-05-05 19:35:21.377 [info] update#setState available for download
+2023-05-06 21:36:46.344 [info] [UtilityProcess id: 2, type: extensionHost, pid: 9589]: received exit event with code 0
+2023-05-06 21:36:46.344 [info] Extension host with pid 9589 exited with code: 0, signal: unknown.
+2023-05-06 21:36:46.383 [info] [UtilityProcess id: 1, type: extensionHost, pid: 9518]: received exit event with code 0
+2023-05-06 21:36:46.383 [info] Extension host with pid 9518 exited with code: 0, signal: unknown.
+2023-05-06 21:36:46.418 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 9520]: attempting to kill the process...
+2023-05-06 21:36:46.418 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 9520]: successfully killed the process
+2023-05-06 21:36:46.424 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 9520]: received exit event with code 15
+2023-05-06 21:36:46.424 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-05-06 21:36:46.425 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 9520]: crashed with code 15 and reason 'killed'

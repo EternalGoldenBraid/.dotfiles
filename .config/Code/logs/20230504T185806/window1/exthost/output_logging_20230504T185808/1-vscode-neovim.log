@@ -1,0 +1,116 @@
+
+
+Error detected while processing /home/nicklas/.dotfiles/.config/nvim/init.vim:
+line  293:
+E488: Trailing characters: firenvim setup: # firenvim setup
+1 line less; before #2  1 second ago
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+E464: Ambiguous use of user-defined command
+Statements must be separated by newlines or semicolons
+E464: Ambiguous use of user-defined command
+reportMissingImports: Import "audio_utils" could not be resolved
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+1 change; before #25  1 second ago
+reportUndefinedVariable: "info" is not defined
+1 change; before #24  2 seconds ago
+1 change; before #23  3 seconds ago
+1 more line; before #22  4 seconds ago
+1 more line; before #21  4 seconds ago
+1 more line; before #20  5 seconds ago
+1 change; before #19  8 seconds ago
+Statements must be separated by newlines or semicolons
+1 change; before #18  9 seconds ago
+1 line less; before #17  10 seconds ago
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+1 change; before #16  11 seconds ago
+Statements must be separated by newlines or semicolons
+1 change; before #15  12 seconds ago
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+1 change; before #14  13 seconds ago
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+1 change; before #13  13 seconds ago
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+1 change; before #12  13 seconds ago
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+1 change; before #11  14 seconds ago
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+1 change; before #10  15 seconds ago
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+1 change; before #9  15 seconds ago
+Statements must be separated by newlines or semicolons
+reportUndefinedVariable: "info" is not defined
+1 change; before #8  16 seconds ago
+reportUndefinedVariable: "info" is not defined
+1 change; before #7  16 seconds ago
+reportUndefinedVariable: "info" is not defined
+1 change; before #6  17 seconds ago
+reportUndefinedVariable: "info" is not defined
+reportUndefinedVariable: "info" is not defined
+1 change; before #5  21 seconds ago
+reportUndefinedVariable: "info" is not defined
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+Statements must be separated by newlines or semicolons
+reportUndefinedVariable: "p" is not defined
+reportUndefinedVariable: "p" is not defined
+reportUndefinedVariable: "p" is not defined
+reportUndefinedVariable: "p" is not defined
+reportUndefinedVariable: "p" is not defined
+reportUndefinedVariable: "p" is not defined
+reportUndefinedVariable: "p" is not defined
+reportUndefinedVariable: "p" is not defined
+(variable) ribosome: Any
+(variable) next_pos: NDArray[Any]

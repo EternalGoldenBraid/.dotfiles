@@ -1,0 +1,16 @@
+[Info  - 12:01:58 PM] (2910) Pylance language server 2023.5.10 (pyright c400d889) starting
+[Info  - 12:01:58 PM] (2910) Server root directory: /home/nicklas/.vscode/extensions/ms-python.vscode-pylance-2023.5.10/dist
+[Info  - 12:01:58 PM] (2910) Starting service instance "maxscience"
+[Info  - 12:01:58 PM] (2910) Setting pythonPath for service "maxscience": "/home/nicklas/mambaforge/envs/math/bin/python"
+[Warn  - 12:01:58 PM] (2910) stubPath /home/nicklas/Projects/maxscience/typings is not a valid directory.
+[Info  - 12:01:58 PM] (2910) Assuming Python version 3.8
+[Info  - 12:01:58 PM] (2910) Found 13 source files
+[Info  - 12:01:58 PM] (2910) Background analysis(1) root directory: /home/nicklas/.vscode/extensions/ms-python.vscode-pylance-2023.5.10/dist
+[Info  - 12:01:58 PM] (2910) Background analysis(1) started
+[Info  - 12:01:59 PM] (2910) Indexer background runner(2) root directory: /home/nicklas/.vscode/extensions/ms-python.vscode-pylance-2023.5.10/dist (index)
+[Info  - 12:01:59 PM] (2910) Indexing(2) started
+[Info  - 12:01:59 PM] (2910) scanned(2) 365 files over 1 exec env
+[Info  - 12:02:02 PM] (2910) [IDX(2)] Long operation: index execution environment /home/nicklas/Projects/maxscience (2470ms)
+[Info  - 12:02:02 PM] (2910) [IDX(2)] Long operation: index packages /home/nicklas/Projects/maxscience (2482ms)
+[Info  - 12:02:02 PM] (2910) indexed(2) 254 files over 1 exec env
+[Info  - 12:02:02 PM] (2910) Indexing finished(2).
