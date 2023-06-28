@@ -8,4 +8,3 @@ source $HOME/.config/nvim/filetypes.vim
 if exists('g:vscode')
   source $HOME/.config/nvim/vscode.vim
 endif
-
