@@ -16,3 +16,6 @@ autocmd FileType css setlocal ts=2 sw=2 expandtab
 " cpp
 autocmd FileType cpp setlocal ts=2 sw=2 expandtab
 
+" vimScript
+autocmd FileType vim setlocal ts=2 sw=2 expandtab
+
