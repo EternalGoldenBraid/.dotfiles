@@ -1,0 +1,8 @@
+" Python specific settings
+set tabstop=8
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+
+":noremap <leader> <C-b> I S-Enter k breakpoint()
+noremap <buffer> <localleader>b Obreakpoint()<esc>
