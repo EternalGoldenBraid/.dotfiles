@@ -34,3 +34,6 @@
 [submodule ".vim/pack/plugins/start/vimtex"]
 	path = .vim/pack/plugins/start/vimtex
 	url = git@github.com:lervag/vimtex.git
+[submodule ".vim/pack/plugins/start/obsidian_nvim"]
+	path = .vim/pack/plugins/start/obsidian_nvim
+	url = git@github.com:epwalsh/obsidian.nvim.git

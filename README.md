@@ -51,10 +51,17 @@ https://github.com/neoclide/coc-snippets
 - coc-tsserver 1.11.11 ~/.config/coc/extensions/node_modules/coc-tsserver
 - coc-json 1.6.1 ~/.config/coc/extensions/node_modules/coc-json
 
-
 ## Python linter
 https://aur.archlinux.org/packages/python-pylsp-mypy
 
-
 ## Vimtex setup
 https://www.ejmastnak.com/tutorials/vim-latex/intro/
+
+## My packages
+ale  
+copilot  
+obsidian_nvim  
+telescope.nvim  
+ultisnips  
+vim-commentary  
+vimtex

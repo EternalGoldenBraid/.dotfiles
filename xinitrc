@@ -29,5 +29,10 @@ fi
 xbindkeys
 setxkbmap -layout us,fi
 setxkbmap -option 'grp:alt_shift_toggle'
-source ~/.screenlayout/three.sh
+source ~/.screenlayout/dual_27_24.sh
+
+# vscode
+eval $(/usr/bin/gnome-keyring-daemon --start)
+export SSH_AUTH_SOCK
+
 exec i3
