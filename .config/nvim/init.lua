@@ -5,8 +5,10 @@ local root = home .. "/.config/nvim"
 
 -- Check if running inside VSCode
 if vim.g.vscode then
-    vim.cmd("source " .. home .. "/.config/nvim/vscode.vim")
+    -- vim.cmd("source " .. home .. "/.config/nvim/vscode.vim")
+    require('keys')
 else
+
   local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
   if not vim.loop.fs_stat(lazypath) then
     vim.fn.system({
