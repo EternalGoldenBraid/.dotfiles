@@ -65,14 +65,74 @@ snippet @U "Greek letter" mA
 \Upsilon
 endsnippet
 
-# Misc
 
-snippet text "Text" A
+# Operations
+#{trigger: "te", replacement: "\\text{$0}", options: "m"},
+snippet te "Text" 
 \text{$1}
 endsnippet
 
+#{trigger: "bf", replacement: "\\mathbf{$0}", options: "mA"},
+snippet bf "Bold"
+\mathbf{$1}
+endsnippet
 
-# Math operators
+#{trigger: "sr", replacement: "^{2}", options: "mA"},
+snippet sr "Square"
+^{2}
+endsnippet
+
+#{trigger: "cb", replacement: "^{3}", options: "mA"},
+snippet cb "Cube"
+^{3}
+endsnippet
+
+#{trigger: "rd", replacement: "^{$0}$1", options: "mA"},
+snippet rd "Power" i
+^{$1}$2
+endsnippet
+
+#{trigger: "_", replacement: "_{$0}$1", options: "mA"},
+snippet _ "Subscript" i
+_{$1}$2
+endsnippet
+
+#{trigger: "sts", replacement: "_\\text{$0}", options: "rmA"},
+snippet sts "Subscript text"
+_{\text{$1}}
+endsnippet
+
+#{trigger: "sq", replacement: "\\sqrt{ $0 }$1", options: "mA"},
+snippet sq "Square root"
+\sqrt{ $1 }$2
+endsnippet
+
+#{trigger: "//", replacement: "\\frac{$0}{$1}$2", options: "mA"},
+snippet // "Fraction" iA
+\frac{ $1 }{ $2 }$3
+endsnippet
+
+#{trigger: "ee", replacement: "e^{ $0 }$1", options: "mA"},
+snippet ee "Exponential"
+e^{ $1 }$2
+endsnippet
+
+#{trigger: "rm", replacement: "\\mathrm{$0}$1", options: "mA"},
+snippet rm "Roman"
+\mathrm{$1}
+endsnippet
+
+#{trigger: "conj", replacement: "^{*}", options: "mA"},
+#{trigger: "trace", replacement: "\\mathrm{Tr}", options: "mA"},
+#{trigger: "det", replacement: "\\det", options: "mA"},
+snippet det "Determinant"
+\det
+endsnippet
+
+#{trigger: "re", replacement: "\\mathrm{Re}", options: "mb"},
+#{trigger: "im", replacement: "\\mathrm{Im}", options: "mb"},
+
+
 snippet bar "Math operator" mA
 \bar{$1}
 endsnippet
@@ -102,8 +162,8 @@ snippet mp "Minus-plus"
 \mp
 endsnippet
 
-snippet "..." "dots"
-\dots
+snippet "..." "dots" i
+\dots $1
 endsnippet
 
 snippet "<->" "Left right arrow"
@@ -155,7 +215,7 @@ snippet eset "Empty set"
 endsnippet
 
 snippet sett "Set"
-\{ $1 \}$2
+\\{ $1 \\}$2
 endsnippet
 
 snippet "=>" "Implies"
@@ -222,8 +282,8 @@ snippet del "Nabla"
 \nabla
 endsnippet
 
-snippet xx "Times"
-\times
+snippet xx "Times" i
+\times $1 $2
 endsnippet
 
 snippet "**" "Dot"

@@ -143,6 +143,13 @@ command! vgrep vim "+grep %a"
 command! reload :write | restart full
 
 " ------------------------------------------------------------------------------
+" Personal commands
+" ------------------------------------------------------------------------------
+command! copyf :execute '!cat %c | xclip -selection clipboard -t $(xdg-mime query filetype %c) && greenclip print'
+
+nnoremap ym :copyf<cr>
+
+" ------------------------------------------------------------------------------
 " File types association
 " ------------------------------------------------------------------------------
 
