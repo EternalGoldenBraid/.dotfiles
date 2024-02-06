@@ -51,13 +51,11 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 set $rof_opt '-lines 13 -eh 1 -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"'
 
-# start dmenu (a program launcher)
-#bindsym $mod+d exec i3-dmenu-desktop --dmenu='rofi -dmenu -show run -lines 13 -eh 1 -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"'
 #
 #bindsym $mod+d exec --no-startup-id rofi -show drun -run-shell-command '{terminal} -e zsh -ic "{cmd} && read"'
 bindsym $mod+d exec --no-startup-id rofi -show drun -run-shell-command 'kitty -e bash -ic "{cmd} && read" -lines 13 -eh 1 -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"'
 # Rofi calc https://github.com/svenstaro/rofi-calc
-bindsym $mod+c exec --no-startup-id rofi -show calc -modi calc -no-show-match -no-sort -run-shell-command 'kitty -e bash -ic "{cmd} && read" -lines 13 -eh 1 -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"'
+bindsym $mod+Shift+c exec --no-startup-id rofi -show calc -modi calc -no-show-match -no-sort -run-shell-command 'kitty -e bash -ic "{cmd} && read" -lines 13 -eh 1 -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"'
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -242,7 +240,10 @@ bindsym $mod+shift+x exec ~/.dotfiles/i3lock-multimonitor/lock
 
 # Print screen
 ##bindsym ctrl+Mod1+s exec "gnome-screenshot -c -a"
-bindsym ctrl+Mod1+s exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
+# bindsym ctrl+Mod1+s exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
+# clipboard tool
+exec --no-startup-id greenclip daemon>/dev/null
+bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard
 
 
 # Open nautilus
