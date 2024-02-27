@@ -240,7 +240,7 @@ bindsym $mod+shift+x exec ~/.dotfiles/i3lock-multimonitor/lock
 
 # Print screen
 ##bindsym ctrl+Mod1+s exec "gnome-screenshot -c -a"
-# bindsym ctrl+Mod1+s exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
+bindsym ctrl+Mod1+s exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
 # clipboard tool
 exec --no-startup-id greenclip daemon>/dev/null
 bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard
