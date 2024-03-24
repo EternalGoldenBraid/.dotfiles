@@ -1,0 +1,15 @@
+[Unit]
+Description=Mount ProtonDrive via rclone
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+Environment=MOUNT_PATH=/home/nicklas/Documents/Finance
+ExecStart=/usr/bin/rclone mount protondrive:Finance ${MOUNT_PATH} --vfs-cache-mode writes
+ExecStop=/bin/fusermount -u ${MOUNT_PATH}
+Restart=on-abort
+
+[Install]
+WantedBy=default.target
+
